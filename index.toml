@@ -167,7 +167,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-design-n-decor.pw.toml"
-hash = "5de85151d1381261bb6e0246f599b7d3d7b9e55414bff2ea82c19b75c37de852"
+hash = "db975ac6f7723fa6230f64ce45b0986774437c4429237f62299e3de71b32b372"
 metafile = true
 
 [[files]]
@@ -527,7 +527,7 @@ metafile = true
 
 [[files]]
 file = "mods/not-enough-animations.pw.toml"
-hash = "5a502f5cea446e0aa96f8882c761ca36ae25263b2503084338906addd42df7db"
+hash = "992f76bae5515c887edc2571195f9452871c147d733b462f3f67d868c6bdd0c4"
 metafile = true
 
 [[files]]
@@ -672,12 +672,12 @@ metafile = true
 
 [[files]]
 file = "mods/structory-towers.pw.toml"
-hash = "34b542ad473b6a70a744b3b6efbada3e9ca9d4033b625cfb0f99d6ef320b32c6"
+hash = "2d5fddc37293f33e8967e4687a69fb98126a8c4f79194547d1ab6e2941007910"
 metafile = true
 
 [[files]]
 file = "mods/structory.pw.toml"
-hash = "17f162241760e4a26023aff789daa5455a8657e8e68d3bafe6aa19a7b46dd4f3"
+hash = "d0b06ed3c01796837223764708bafdc354ca271083f29700aa2de1c5e1b4ff89"
 metafile = true
 
 [[files]]
