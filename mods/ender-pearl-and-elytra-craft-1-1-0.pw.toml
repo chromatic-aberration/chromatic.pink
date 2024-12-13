@@ -1,0 +1,13 @@
+name = "ender pearl and elytra craft"
+filename = "ender pearl and elytra craft-1.1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f082dfd5e1007a6719c53a021abf245cd1db0f36"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5221350
+project-id = 994865
