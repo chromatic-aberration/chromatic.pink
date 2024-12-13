@@ -1,6 +1,6 @@
 name = "Oculus"
 filename = "oculus-mc1.20.1-1.7.0.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
@@ -11,3 +11,8 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 5299671
 project-id = 581495
+
+[option]
+optional = true
+default = false
+description = "mod na shadery - tylko na mocne konkutery"

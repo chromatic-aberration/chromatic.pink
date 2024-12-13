@@ -11,3 +11,8 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 5380322
 project-id = 1019300
+
+[option]
+optional = true
+default = false
+description = "wymygany tylko uzywajac shaderow z moda oculus (inaczej portale nie sa widoczne z wlaczonymi shaderami)"

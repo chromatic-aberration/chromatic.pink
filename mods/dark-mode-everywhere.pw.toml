@@ -1,6 +1,6 @@
 name = "Dark Mode Everywhere"
 filename = "DarkModeEverywhere-1.20.1-1.2.3.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
@@ -11,3 +11,8 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 5922792
 project-id = 574123
+
+[option]
+optional = true
+default = false
+description = "dark mode dla okienek, moze byc buggy"

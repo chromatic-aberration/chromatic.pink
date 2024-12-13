@@ -636,11 +636,6 @@ hash = "4fe0c47929a658858c48abef710b31b017113449da6b43e0fa50fb618e0a07bd"
 metafile = true
 
 [[files]]
-file = "mods/showcase-item.pw.toml"
-hash = "b9e82a71c1e03c16cced1ea055f4bfa18139ff7f2b1d7108061f8adcd3214ddc"
-metafile = true
-
-[[files]]
 file = "mods/smooth-chunk-save.pw.toml"
 hash = "e88c399a04a63ac80fdd5d191e509649ed2082a43cced7d2895e58951bc32921"
 metafile = true
