@@ -1,6 +1,22 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/defaultoptions/keybindings.txt"
+hash = "f66e1fa77c5e5ca3e0186514a1bd5e0b8e2fd0051026107709e9d485825bfcb3"
+
+[[files]]
+file = "config/defaultoptions/options.txt"
+hash = "8dd4d7c49b562a3ec2c5b382ec9205ba1d94e410e2a5da2d78947e8f07f20d11"
+
+[[files]]
+file = "config/defaultoptions/optionsviveprofiles.txt"
+hash = "c43dccd7a01ff47ee93665bd53c3c2711da8327f2f650d2dfe0d85526d61dcf3"
+
+[[files]]
+file = "config/defaultoptions/servers.dat"
+hash = "6ffe437f5f0c09d62adad3f59c8057565e5fb57f32df8c314ca9cee587a12e23"
+
+[[files]]
 file = "mods/ad-astra.pw.toml"
 hash = "5c19a17173b9a7e9932e0ca44691cdd59f95c4faa5faa309a41684e97673dfba"
 metafile = true
