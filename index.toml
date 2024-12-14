@@ -101,10 +101,6 @@ file = "config/storagedrawers-common.toml"
 hash = "7c99c977130eb3c803b36d1893203952fd2ee649ea3bd834327d359e5a1866b2"
 
 [[files]]
-file = "config/tempad-client.jsonc"
-hash = "d5944d04cdac61260b0bf9421fed748942974e4d59735f4ebeb1a01759eec89d"
-
-[[files]]
 file = "config/tempad.jsonc"
 hash = "85bc902562eb63e76e29076cd2b1dd14d9c98241c7b77ec2893b478a2f67e9c0"
 
