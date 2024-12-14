@@ -93,7 +93,7 @@ key_info.structure_gel.building_tool.undo:key.keyboard.z:CONTROL
 key_info.structure_gel.building_tool.redo:key.keyboard.y:CONTROL
 key_key.structure_gel.open_building_tool_gui:key.keyboard.r:NONE
 key_key.tempad.shortcut:key.keyboard.grave.accent:NONE
-key_key.tempad.favorite:key.keyboard.grave.accent:SHIFT
+key_key.tempad.favorite:key.keyboard.grave.accent:ALT
 key_key.curios.open.desc:key.keyboard.unknown:NONE
 key_iris.keybind.reload:key.keyboard.unknown:NONE
 key_iris.keybind.toggleShaders:key.keyboard.l:NONE
