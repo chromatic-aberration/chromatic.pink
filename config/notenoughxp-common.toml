@@ -8,7 +8,7 @@
 [multipliers]
 	#Multiplier for xp dropped by mined ore
 	#Range: 0.1 ~ 100.0
-	ore_multiplier = 4.0
+	ore_multiplier = 4
 	#Multiplier for xp dropped by mobs
 	#Range: 0.1 ~ 100.0
 	mob_multiplier = 3.0

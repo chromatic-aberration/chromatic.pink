@@ -82,7 +82,7 @@ hash = "297c899fead9c3e358d9fc45edcc241f4ffbc25b71a8c1c2c84609d8110b8eca"
 
 [[files]]
 file = "config/notenoughxp-common.toml"
-hash = "89693a3a963a52738ebdccd3ff69265e289f95cb83dad9867c13db126ff527f6"
+hash = "c22050a6893f5f70a898a234cdba18a3cbe3336602aa71f4c60af591f320ee3e"
 
 [[files]]
 file = "config/ping-wheel.json"
@@ -90,7 +90,7 @@ hash = "9732c476a078bd448d9af77f90cd62946f80ba4d094d6bd33a56875c6f559859"
 
 [[files]]
 file = "config/ping-wheel.server.json"
-hash = "b0b03a52421d92243faa1881119aa8815b1b84a6ce7f7fb2bac42f20d97b9e22"
+hash = "a9dcc4af7ab3572c5c512210276cb595154261cada410b0780ce2fc4616b70bb"
 
 [[files]]
 file = "config/quark-common.toml"
@@ -98,7 +98,7 @@ hash = "adb72f9d18e0cdd714b600de33e90e993eadabb7e50433f8ab746cf114c174e0"
 
 [[files]]
 file = "config/storagedrawers-common.toml"
-hash = "0ae4b87dfbb74882a25c74bb02883ed1156c73eae0db52590b24aae32d4a7cda"
+hash = "7c99c977130eb3c803b36d1893203952fd2ee649ea3bd834327d359e5a1866b2"
 
 [[files]]
 file = "config/tempad-client.jsonc"
