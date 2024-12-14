@@ -42,7 +42,7 @@ hash = "c43dccd7a01ff47ee93665bd53c3c2711da8327f2f650d2dfe0d85526d61dcf3"
 
 [[files]]
 file = "config/defaultoptions/servers.dat"
-hash = "6ffe437f5f0c09d62adad3f59c8057565e5fb57f32df8c314ca9cee587a12e23"
+hash = "113360c4b861a54a0e352f61faf91c4842137f67e5862978e7a6942962ee6661"
 
 [[files]]
 file = "config/findme.json"
