@@ -1,6 +1,34 @@
 hash-format = "sha256"
 
 [[files]]
+file = "config/Mekanism/common.toml"
+hash = "32dd9b2e18b67a1e94026124000d720b36ddb24be092303141a4901f33d7b7c0"
+
+[[files]]
+file = "config/NoChatReports/NCR-Client.json"
+hash = "bca357d99bfe1764d6586f3b685132b2f2be5c549a214830a5ebdc3cce30a423"
+
+[[files]]
+file = "config/NoChatReports/NCR-Common.json"
+hash = "0eaad2630bd70ade719f7810e805810ada25379269ea194e43d3eea30c51dec0"
+
+[[files]]
+file = "config/NoChatReports/NCR-Encryption.json"
+hash = "45f4027b16288786842a792a8263197df73e696406fa72f78eabfd0a544fa181"
+
+[[files]]
+file = "config/NoChatReports/NCR-ServerPreferences.json"
+hash = "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
+
+[[files]]
+file = "config/alexsmobs.toml"
+hash = "c944598fba0430e071cd9d57303a0f83dc1273fb6ccb3024b8dd15a81b3f2230"
+
+[[files]]
+file = "config/creeperoverhaul.jsonc"
+hash = "92d711d3dcd68e93d829a084b7527dc8d90a67d7350e7696a54e3c8c322fee7c"
+
+[[files]]
 file = "config/defaultoptions/keybindings.txt"
 hash = "f66e1fa77c5e5ca3e0186514a1bd5e0b8e2fd0051026107709e9d485825bfcb3"
 
@@ -15,6 +43,86 @@ hash = "c43dccd7a01ff47ee93665bd53c3c2711da8327f2f650d2dfe0d85526d61dcf3"
 [[files]]
 file = "config/defaultoptions/servers.dat"
 hash = "6ffe437f5f0c09d62adad3f59c8057565e5fb57f32df8c314ca9cee587a12e23"
+
+[[files]]
+file = "config/findme.json"
+hash = "6154e22c6a0c133b8ad9b7942cd7aa12bb0a82c6c8c94919f64df1c5a0279084"
+
+[[files]]
+file = "config/iceandfire-client.toml"
+hash = "a4dcf9cc2e7f541fe73ee2f9780694cb8e9c7738a0a06e2a456453c3a47a8b9d"
+
+[[files]]
+file = "config/jade/hide-blocks.json"
+hash = "247df2699ebb5a0d4c9585aeeb267ef9388cd5bee2b13ca340f35124a135b35b"
+
+[[files]]
+file = "config/jade/hide-entities.json"
+hash = "22b4560c3dc05da35a70bb6611da0ce04cff295ab8c663afd58e725c396a24b3"
+
+[[files]]
+file = "config/jade/jade.json"
+hash = "ddb27cc5c0ba83bc0032c73ba372d5ba669aabe8c954bda18b5056a86523fcef"
+
+[[files]]
+file = "config/jade/plugins.json"
+hash = "a7a27f21e3ea49b913bfd98d0ffd969f70bc6896d8976cbf1daa5b30d7a50e91"
+
+[[files]]
+file = "config/jade/sort-order.json"
+hash = "4955de8ae14cb239c6e6f3a0906e9f5f4c11619cac084f00d9f9119db3711d6f"
+
+[[files]]
+file = "config/jeiintegration-client.toml"
+hash = "9d993166ee9cbcc66c0e905382e7567fb817b7b043ebccd2f9da0a4bd8dd46d2"
+
+[[files]]
+file = "config/nerb.yaml"
+hash = "297c899fead9c3e358d9fc45edcc241f4ffbc25b71a8c1c2c84609d8110b8eca"
+
+[[files]]
+file = "config/notenoughxp-common.toml"
+hash = "89693a3a963a52738ebdccd3ff69265e289f95cb83dad9867c13db126ff527f6"
+
+[[files]]
+file = "config/ping-wheel.json"
+hash = "9732c476a078bd448d9af77f90cd62946f80ba4d094d6bd33a56875c6f559859"
+
+[[files]]
+file = "config/ping-wheel.server.json"
+hash = "b0b03a52421d92243faa1881119aa8815b1b84a6ce7f7fb2bac42f20d97b9e22"
+
+[[files]]
+file = "config/quark-common.toml"
+hash = "adb72f9d18e0cdd714b600de33e90e993eadabb7e50433f8ab746cf114c174e0"
+
+[[files]]
+file = "config/storagedrawers-common.toml"
+hash = "0ae4b87dfbb74882a25c74bb02883ed1156c73eae0db52590b24aae32d4a7cda"
+
+[[files]]
+file = "config/tempad-client.jsonc"
+hash = "d5944d04cdac61260b0bf9421fed748942974e4d59735f4ebeb1a01759eec89d"
+
+[[files]]
+file = "config/tempad.jsonc"
+hash = "85bc902562eb63e76e29076cd2b1dd14d9c98241c7b77ec2893b478a2f67e9c0"
+
+[[files]]
+file = "config/tradingpost-server.toml"
+hash = "706dd638ffb053e3571d8ba8a5e1d0ae111c9ddcd9e0d5626cc20ec0be949dc6"
+
+[[files]]
+file = "config/trashslot-common.toml"
+hash = "6c3d9c2beda86c011630543c2687d30dda0303e4ef8cdb3fc867e7c8bb2c2721"
+
+[[files]]
+file = "config/travelerstitles-forge-1_20.toml"
+hash = "bf728f2fe5cd1b09e066ecef5ab1f3bdf1a1b34f93421743a85215a949f1dbff"
+
+[[files]]
+file = "config/watut-common.toml"
+hash = "f39ba95b8eed84a909b1aafba3e70ec36d037c99938299a362dbd2e543760cf9"
 
 [[files]]
 file = "mods/ad-astra.pw.toml"
@@ -129,6 +237,11 @@ metafile = true
 [[files]]
 file = "mods/carry-on.pw.toml"
 hash = "ba1bdad41e3c9ec131330f048fc6f9bcb753ca3e9bfa1e41d60d6ca11afbc2e6"
+metafile = true
+
+[[files]]
+file = "mods/chat-heads.pw.toml"
+hash = "f9434f07bbf8ebf1e0994fce72cb36e09d10945f3d5538e7c8446b439365c195"
 metafile = true
 
 [[files]]
