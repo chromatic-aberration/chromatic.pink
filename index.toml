@@ -25,6 +25,10 @@ file = "config/alexsmobs.toml"
 hash = "c944598fba0430e071cd9d57303a0f83dc1273fb6ccb3024b8dd15a81b3f2230"
 
 [[files]]
+file = "config/colorfulhearts.toml"
+hash = "a791e3b57e0c4ecb38f5dfae1caa7c192d64dd8a848d74b23926cbedaf4d0400"
+
+[[files]]
 file = "config/creeperoverhaul.jsonc"
 hash = "92d711d3dcd68e93d829a084b7527dc8d90a67d7350e7696a54e3c8c322fee7c"
 
@@ -77,12 +81,20 @@ file = "config/jeiintegration-client.toml"
 hash = "9d993166ee9cbcc66c0e905382e7567fb817b7b043ebccd2f9da0a4bd8dd46d2"
 
 [[files]]
+file = "config/jmi-client.toml"
+hash = "792de8b7e7a5b2b3e8ee6da13c2766ad0d7b18f2e22c3c14bf80a05950fa3790"
+
+[[files]]
 file = "config/nerb.yaml"
 hash = "297c899fead9c3e358d9fc45edcc241f4ffbc25b71a8c1c2c84609d8110b8eca"
 
 [[files]]
 file = "config/notenoughxp-common.toml"
 hash = "c22050a6893f5f70a898a234cdba18a3cbe3336602aa71f4c60af591f320ee3e"
+
+[[files]]
+file = "config/overloadedarmorbar-client.toml"
+hash = "a70bef61b1b96dc0f693073348a2412a53ec67122461994d531ecdc6a35f2433"
 
 [[files]]
 file = "config/ping-wheel.json"
