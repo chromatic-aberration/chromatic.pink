@@ -109,6 +109,14 @@ file = "config/quark-common.toml"
 hash = "adb72f9d18e0cdd714b600de33e90e993eadabb7e50433f8ab746cf114c174e0"
 
 [[files]]
+file = "config/simplemenu.json5"
+hash = "bd5397ec52c25f1680da9219e42eadf78007e396d4f235e7b06421f13b3a61bf"
+
+[[files]]
+file = "config/simplemenu/logo/edition.png"
+hash = "81e79c3899f153b0fab12eeece114ba74ad2eeccd9c62473c87ab9e43afb381b"
+
+[[files]]
 file = "config/storagedrawers-common.toml"
 hash = "7c99c977130eb3c803b36d1893203952fd2ee649ea3bd834327d359e5a1866b2"
 
@@ -135,6 +143,11 @@ hash = "f39ba95b8eed84a909b1aafba3e70ec36d037c99938299a362dbd2e543760cf9"
 [[files]]
 file = "mods/ad-astra.pw.toml"
 hash = "5c19a17173b9a7e9932e0ca44691cdd59f95c4faa5faa309a41684e97673dfba"
+metafile = true
+
+[[files]]
+file = "mods/advanced-hook-launchers.pw.toml"
+hash = "df44e54caf6a1c076a941974f31f7336b1705eb54db4e2498c3eb48b1edcd68b"
 metafile = true
 
 [[files]]
@@ -278,6 +291,11 @@ hash = "0a3bcb9a1e05b4cf2b34de020c78a80e8670190711955a822492a8c0ab9b261a"
 metafile = true
 
 [[files]]
+file = "mods/configurable-death.pw.toml"
+hash = "779f8faf67da88fb4b8859ef2e8aa230081fceb9af613a1fe50b96c5662a3f17"
+metafile = true
+
+[[files]]
 file = "mods/connectivity.pw.toml"
 hash = "6bc4aa39478b886f8cd3a5d65023af0718234182d55bebd0cce874a3bbabc720"
 metafile = true
@@ -403,6 +421,11 @@ hash = "e60a8e1a8559394229fbd54e3e386709f10d3a693f0d470b3708da08736efaae"
 metafile = true
 
 [[files]]
+file = "mods/forgeendertech.pw.toml"
+hash = "a6a46880503321970c793723ece653fd8c862e2262da45c2e2ea413706b67495"
+metafile = true
+
+[[files]]
 file = "mods/framework.pw.toml"
 hash = "2a4f28e582d8bb538efaeb0faa5a8592f44b2e90dd192af58852f45aa7be8be8"
 metafile = true
@@ -444,7 +467,7 @@ metafile = true
 
 [[files]]
 file = "mods/iceberg.pw.toml"
-hash = "5851bef35e786bfcdb837dfc380c4bd22c857434b2997235a551b3a0cf72d158"
+hash = "c21d061d9c22b9bcdad2ac9f9823355fcab00f2ea05469b76d5ddf6ccf518479"
 metafile = true
 
 [[files]]
@@ -465,6 +488,11 @@ metafile = true
 [[files]]
 file = "mods/iron-furnaces.pw.toml"
 hash = "1d461a57d4e64d5cdb416db0ee911c150e0ac08e13335ff525b2b5d0bef5844f"
+metafile = true
+
+[[files]]
+file = "mods/item-borders.pw.toml"
+hash = "5a10f11c440c870239753bae8f488ca6c251bfaf6967b55cf8666c778c333da4"
 metafile = true
 
 [[files]]
@@ -530,6 +558,11 @@ metafile = true
 [[files]]
 file = "mods/kotlin-for-forge.pw.toml"
 hash = "40026875ee9b7d25a4ece48faa2b70a338100e87a689d5a8d4ba1ee608b878f6"
+metafile = true
+
+[[files]]
+file = "mods/legendary-tooltips.pw.toml"
+hash = "bc4c7d42fd94d57b020a43dbb3aa3caaa8395c77bd872f252a8302a39b2256a9"
 metafile = true
 
 [[files]]
@@ -713,6 +746,11 @@ hash = "2d47877684bd91ad4c597b68bae4a8af3964011bfc0fd52e004469368f23b834"
 metafile = true
 
 [[files]]
+file = "mods/prism-lib.pw.toml"
+hash = "f79cb80b6ea599fe4ca9404465277ff7edf25118976170c28827590febfcee7a"
+metafile = true
+
+[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "d99946cb99e0d71fc13f2ff0e87108618b1f42486ff0ab3c3b99fa40c66efc9a"
 metafile = true
@@ -760,6 +798,11 @@ metafile = true
 [[files]]
 file = "mods/selene.pw.toml"
 hash = "3c09944647988453baf03b55ff6190fbe97e367196b2487fb84c93ca2ee28f6e"
+metafile = true
+
+[[files]]
+file = "mods/simple-menu.pw.toml"
+hash = "5c7d82478607ca14645e77b2806a5a6263f93a922d7327f1b80c22186243ed85"
 metafile = true
 
 [[files]]
@@ -918,6 +961,11 @@ hash = "718ec3f4126f8e520dac17aa2e0644e5bb8f870b0de2d20fa682a56b07876484"
 metafile = true
 
 [[files]]
+file = "mods/when-dungeons-arise.pw.toml"
+hash = "e1a4ba8492831192c38c8048b9a3ae872b6b7cb6a6c3a204e68c02056ab81af9"
+metafile = true
+
+[[files]]
 file = "mods/yung-structures-addon-for-loot-integrations.pw.toml"
 hash = "f11b06f1bd3defefcdcfb5c62e14a4158d15f78f2389bb8dfea05fb8fc8fc80b"
 metafile = true
@@ -970,4 +1018,9 @@ metafile = true
 [[files]]
 file = "mods/zeta.pw.toml"
 hash = "583961055f3e588845076ace49394c9ca830706a73eb1b4a4cbfe4db9f0950e9"
+metafile = true
+
+[[files]]
+file = "resourcepacks/when-dungeons-arise-spacing-tweaks.pw.toml"
+hash = "743763741aaea892ff4d9e5d373b18d9ecf55c71c7b1f428a2603ba063a944e3"
 metafile = true

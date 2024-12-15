@@ -1,0 +1,13 @@
+name = "Configurable Death"
+filename = "configurabledeath1_20_1-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/WXCxpXEu/versions/RQVSkztf/configurabledeath1_20_1-1.0.0.jar"
+hash-format = "sha512"
+hash = "090043396e34a67327640e8807bc1eb996dc35bf4f026ace8f581ba1068a55e326310a0e47c3828b301c1657f0e657fd8f226aa1346358d57ef3bd531332900b"
+
+[update]
+[update.modrinth]
+mod-id = "WXCxpXEu"
+version = "RQVSkztf"
