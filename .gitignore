@@ -1,5 +1,6 @@
 packwiz.exe
-mods/*.jar
+*.jar
+tools
 
 # Exclude exported CurseForge zip files
 *.zip

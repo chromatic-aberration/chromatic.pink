@@ -272,7 +272,7 @@ metafile = true
 
 [[files]]
 file = "mods/controlling.pw.toml"
-hash = "1e56f528d8e21b0cf9c52c3d6deea2a4eafa408170b39a070195dbf66617f373"
+hash = "cf8c5f2a139a2571d0d4b8be2b7463255cca721ae4a5741ec71595b7ab530e71"
 metafile = true
 
 [[files]]
@@ -632,7 +632,7 @@ metafile = true
 
 [[files]]
 file = "mods/nekos-enchanted-books.pw.toml"
-hash = "719d6289c5c0a0ada27b685b5ec099a8d6a7c3dd41e167eb2bd28ac8d7ff4e40"
+hash = "40937a4740d823c55cfb62505c8ced0dcc3cf35bc8b86465b48f5d799b69a340"
 metafile = true
 
 [[files]]
@@ -827,7 +827,7 @@ metafile = true
 
 [[files]]
 file = "mods/tempad-with-shaders.pw.toml"
-hash = "c298d0fa90bdb18ae45a5a3a20ecc6defcabc03bce9f7353f90574e99847a1a2"
+hash = "d6acf430bf0bd47d92e71da1706f8ceb4f22827987bda218bbb1984f059f4f2d"
 metafile = true
 
 [[files]]
@@ -887,7 +887,7 @@ metafile = true
 
 [[files]]
 file = "mods/unilib.pw.toml"
-hash = "688da0b9d8c3eaa32499d1752273386a15b3b2baff350f9fcb2265a7770f7d6e"
+hash = "537529ecae1a0e8fee1f97abc4e71d90dd2a011da01414e63716469546d5fc33"
 metafile = true
 
 [[files]]
