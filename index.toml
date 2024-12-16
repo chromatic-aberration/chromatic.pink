@@ -26,7 +26,7 @@ hash = "c944598fba0430e071cd9d57303a0f83dc1273fb6ccb3024b8dd15a81b3f2230"
 
 [[files]]
 file = "config/colorfulhearts.toml"
-hash = "9a23c63131155ef79ea2114c5e5f7e9911d036405b1cf63bde5e423f35086f58"
+hash = "b9cfc5d72312578e8f58be8a08a447c7a4fd7a7a25e48d769058c2f7e87a4c32"
 
 [[files]]
 file = "config/creeperoverhaul.jsonc"
@@ -50,7 +50,7 @@ hash = "113360c4b861a54a0e352f61faf91c4842137f67e5862978e7a6942962ee6661"
 
 [[files]]
 file = "config/findme.json"
-hash = "6154e22c6a0c133b8ad9b7942cd7aa12bb0a82c6c8c94919f64df1c5a0279084"
+hash = "69503ce44e6aa15c514613abc82082096c6e46d56a2a626e9d4e56398a5d712a"
 
 [[files]]
 file = "config/iceandfire-client.toml"

@@ -1,12 +1,12 @@
 name = "chromatic.pink"
 author = "chromaetheral"
-version = "1.2.0"
+version = "1.2.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "78b42fe292782952c2b80d30bf47de0eac2eb2d9f4e3b8b3530c37ae81e28d1f"
+hash = "c86228f4add2170b93ce75b6602a944ab0364874c29dc09571f872c9c65a073a"
 
 [versions]
 forge = "47.3.12"
