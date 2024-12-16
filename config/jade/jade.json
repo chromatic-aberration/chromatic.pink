@@ -7,7 +7,7 @@
     "ttsMode": "PRESS",
     "fluidMode": "ANY",
     "reachDistance": 1.0,
-    "displayEntities": true,
+    "displayEntities": false,
     "displayBosses": true,
     "displayMode": "TOGGLE",
     "displayTooltip": true,
