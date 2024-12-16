@@ -21,6 +21,10 @@ file = "config/NoChatReports/NCR-ServerPreferences.json"
 hash = "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
 
 [[files]]
+file = "config/ae2/client.json"
+hash = "dcc47dc0c1ede398f295edae60a8910a211614dc51f5efdc58a0baba55cc4dfd"
+
+[[files]]
 file = "config/alexsmobs.toml"
 hash = "c944598fba0430e071cd9d57303a0f83dc1273fb6ccb3024b8dd15a81b3f2230"
 
@@ -66,11 +70,11 @@ hash = "22b4560c3dc05da35a70bb6611da0ce04cff295ab8c663afd58e725c396a24b3"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "ddb27cc5c0ba83bc0032c73ba372d5ba669aabe8c954bda18b5056a86523fcef"
+hash = "5d2670d813fe1e3d2d787259a85412380cf1b4c634e150c9b3c4a64a02e9e4bf"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "a7a27f21e3ea49b913bfd98d0ffd969f70bc6896d8976cbf1daa5b30d7a50e91"
+hash = "38057f77bbd834346036ee8f265b6d8a6d5bfa13221d301c7bb28f4096c86314"
 
 [[files]]
 file = "config/jade/sort-order.json"
@@ -78,7 +82,7 @@ hash = "4955de8ae14cb239c6e6f3a0906e9f5f4c11619cac084f00d9f9119db3711d6f"
 
 [[files]]
 file = "config/jeiintegration-client.toml"
-hash = "9d993166ee9cbcc66c0e905382e7567fb817b7b043ebccd2f9da0a4bd8dd46d2"
+hash = "2766d4c9764201890ccac68ac9d30e30d7c2bb75c859ad9e94a86876dffae9c9"
 
 [[files]]
 file = "config/jmi-client.toml"
