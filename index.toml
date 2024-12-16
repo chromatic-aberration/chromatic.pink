@@ -291,11 +291,6 @@ hash = "0a3bcb9a1e05b4cf2b34de020c78a80e8670190711955a822492a8c0ab9b261a"
 metafile = true
 
 [[files]]
-file = "mods/configurable-death.pw.toml"
-hash = "779f8faf67da88fb4b8859ef2e8aa230081fceb9af613a1fe50b96c5662a3f17"
-metafile = true
-
-[[files]]
 file = "mods/connectivity.pw.toml"
 hash = "6bc4aa39478b886f8cd3a5d65023af0718234182d55bebd0cce874a3bbabc720"
 metafile = true
