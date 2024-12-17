@@ -114,7 +114,7 @@ hash = "a9dcc4af7ab3572c5c512210276cb595154261cada410b0780ce2fc4616b70bb"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "853eeba7b57b921f5e5a4f550fb5884a77e3a0029ef6ce7b24c43a9cddb2fa11"
+hash = "e3ccc369d2fe4a8c8a4d3d2df37bdcdc6a58ded88bd885b342b7227b17dc8c3e"
 
 [[files]]
 file = "config/simplemenu.json5"
@@ -385,6 +385,11 @@ metafile = true
 [[files]]
 file = "mods/diagonal-fences.pw.toml"
 hash = "19255110e688c65f6144cd2fccbfae5c8e376a21083006bd9d4c096ab0494f1c"
+metafile = true
+
+[[files]]
+file = "mods/edit-mob-drops.pw.toml"
+hash = "3b6f46b168e1f525ffdee415b39db931700b15b7491ba96b32c4d7c65ed68b40"
 metafile = true
 
 [[files]]

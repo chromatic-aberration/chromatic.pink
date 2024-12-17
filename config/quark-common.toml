@@ -1585,8 +1585,8 @@
 	[client.chest_searching]
 
 		[client.chest_searching.overlay_color]
-			A = 0.8
-			R = 0.15
+			A = 0.78
+			R = 0.04
 			G = 0.0
 			B = 0.0
 
