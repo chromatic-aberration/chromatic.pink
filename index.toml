@@ -90,7 +90,7 @@ hash = "792de8b7e7a5b2b3e8ee6da13c2766ad0d7b18f2e22c3c14bf80a05950fa3790"
 
 [[files]]
 file = "config/legendarytooltips-common.toml"
-hash = "72bd64c7e8cb0ac60f7f5e0a609d372772f438fd32ce3a9e8f9fcabf50cca5f8"
+hash = "be5c03ce2c2a87e17f310c2422ba8b2e3e26bd32d87c52628b8c047b76616b7e"
 
 [[files]]
 file = "config/nerb.yaml"
