@@ -7,12 +7,12 @@
     "ttsMode": "PRESS",
     "fluidMode": "ANY",
     "reachDistance": 1.0,
-    "displayEntities": false,
+    "displayEntities": true,
     "displayBosses": true,
     "displayMode": "TOGGLE",
     "displayTooltip": true,
     "displayBlocks": true,
-    "hideFromDebug": true,
+    "hideFromDebug": false,
     "hideFromTabList": true,
     "enableTextToSpeech": false,
     "hintOverlayToggle": true,
@@ -24,7 +24,7 @@
     "iconMode": "TOP",
     "animation": true,
     "disappearingDelay": 0.0,
-    "overlaySquare": true,
+    "overlaySquare": false,
     "flipMainHand": false,
     "autoScaleThreshold": 0.4,
     "overlayPosY": 1.0,
@@ -36,6 +36,6 @@
     "overlayPosX": 0.5
   },
   "formatting": {
-    "modName": "§9§o%s"
+    "modName": "§d§o%s"
   }
 }

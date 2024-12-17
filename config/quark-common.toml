@@ -28,7 +28,7 @@
 	#The amount of slots the chest button system should seek when trying to figure out if a container should be eligible for them.
 	"Chest Button Slot Target" = 27
 	#Set this to false to not generate the Quark Programmer Art resource pack
-	"Generate Programmer Art" = true
+	"Generate Programmer Art" = false
 
 	[general.chest_button_offsets]
 		"Player X" = 0
@@ -179,7 +179,7 @@
 		#Set to true for faster map updates. Default is every 3s
 		"Glass Item Frames Update Maps Every Tick" = false
 		#The scale at which items render in the Glass Item Frame. To match the vanilla Item Frame size, set to 1.0
-		"Item Render Scale" = 1.5
+		"Item Render Scale" = 1.3
 
 	[building.gold_bars]
 		"Generate In Nether Fortress" = true
@@ -678,7 +678,7 @@
 		#If `petAllMobs` is set, these mobs still can't be pet
 		"Pettable Denylist" = ["minecraft:ender_dragon", "minecraft:wither", "minecraft:armor_stand"]
 		#Even if `petAllMobs` is not set, these mobs can be pet
-		"Pettable Allowlist" = []
+		"Pettable Allowlist" = ["minecraft:cow", "minecraft:cat"]
 
 	[tweaks.pig_litters]
 		#Allowed values: [1,)
@@ -1498,7 +1498,7 @@
 		Foods = ["minecraft:glow_berries"]
 		"Allow Toretoise To Regrow" = true
 		#Feeding a toretoise after cooldown will regrow them with a one-in-this-number chance. Set to 1 to always regrow, higher = lower chance.
-		"Regrow Chance" = 3
+		"Regrow Chance" = 2
 
 		[mobs.toretoise.dimensions]
 			"Is Blacklist" = false
@@ -1580,13 +1580,13 @@
 
 	[client.camera]
 		#Date format that will be displayed in screenshots. Must be a valid one (i.e. MM/dd/yyyy)
-		"Date Format" = "MM/dd/yyyy"
+		"Date Format" = "dd/MM/yyyy"
 
 	[client.chest_searching]
 
 		[client.chest_searching.overlay_color]
-			A = 0.67
-			R = 0.0
+			A = 0.8
+			R = 0.15
 			G = 0.0
 			B = 0.0
 
@@ -1659,7 +1659,7 @@
 		"Enable L G B T Bees" = true
 		"Every Bee Is L G B T" = false
 		#The chance for an animal to have a special "Shiny" skin, like a shiny pokemon. This is 1 in X. Set to 0 to disable.
-		"Shiny Animal Chance" = 2048
+		"Shiny Animal Chance" = 512
 		#If a shiny animal should emit occasional sparkles.
 		"Shiny Sparkles" = true
 

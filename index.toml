@@ -38,7 +38,7 @@ hash = "92d711d3dcd68e93d829a084b7527dc8d90a67d7350e7696a54e3c8c322fee7c"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "ad8834cf23aac0a8c22aaf823685d5af6a139fff7ad081fa76ca57908e4b0d16"
+hash = "3c7ffa2421a3efe61ad286c52c9176fe2aafdc8ec1ee460d1db39db13053003e"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -70,11 +70,11 @@ hash = "22b4560c3dc05da35a70bb6611da0ce04cff295ab8c663afd58e725c396a24b3"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "2828e73534191837fc3e8ac81817648f76a317a85adf1f7a05da7d4cbd2d7d08"
+hash = "89e79c86ae56403daf4ba0723fbcaa48a20cee1612c7a9e2ecdf5ea43775b7f8"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "38057f77bbd834346036ee8f265b6d8a6d5bfa13221d301c7bb28f4096c86314"
+hash = "bcbae7802e2431db6c245da86e07ea8cb4a06300aa8a624a4f40a8de2f53f082"
 
 [[files]]
 file = "config/jade/sort-order.json"
@@ -87,6 +87,10 @@ hash = "2766d4c9764201890ccac68ac9d30e30d7c2bb75c859ad9e94a86876dffae9c9"
 [[files]]
 file = "config/jmi-client.toml"
 hash = "792de8b7e7a5b2b3e8ee6da13c2766ad0d7b18f2e22c3c14bf80a05950fa3790"
+
+[[files]]
+file = "config/legendarytooltips-common.toml"
+hash = "72bd64c7e8cb0ac60f7f5e0a609d372772f438fd32ce3a9e8f9fcabf50cca5f8"
 
 [[files]]
 file = "config/nerb.yaml"
@@ -110,7 +114,7 @@ hash = "a9dcc4af7ab3572c5c512210276cb595154261cada410b0780ce2fc4616b70bb"
 
 [[files]]
 file = "config/quark-common.toml"
-hash = "adb72f9d18e0cdd714b600de33e90e993eadabb7e50433f8ab746cf114c174e0"
+hash = "853eeba7b57b921f5e5a4f550fb5884a77e3a0029ef6ce7b24c43a9cddb2fa11"
 
 [[files]]
 file = "config/simplemenu.json5"
@@ -126,7 +130,7 @@ hash = "7c99c977130eb3c803b36d1893203952fd2ee649ea3bd834327d359e5a1866b2"
 
 [[files]]
 file = "config/tempad.jsonc"
-hash = "85bc902562eb63e76e29076cd2b1dd14d9c98241c7b77ec2893b478a2f67e9c0"
+hash = "0c4d052d511304318d407a56c01e1dcda76164dbb2181436a7dcc9778a9b9f46"
 
 [[files]]
 file = "config/tradingpost-server.toml"
@@ -307,6 +311,11 @@ metafile = true
 [[files]]
 file = "mods/coroutil.pw.toml"
 hash = "9f2bb57e05bad305f03c25c275c6d11e952835a41b2da68dba10a0bd1f3f6261"
+metafile = true
+
+[[files]]
+file = "mods/crafting-tweaks.pw.toml"
+hash = "bc0573b24f5dc93fcc644f7c5ba99d66c18097f874070b2808fd0af7ccb10259"
 metafile = true
 
 [[files]]
