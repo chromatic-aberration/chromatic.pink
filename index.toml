@@ -90,7 +90,7 @@ hash = "792de8b7e7a5b2b3e8ee6da13c2766ad0d7b18f2e22c3c14bf80a05950fa3790"
 
 [[files]]
 file = "config/legendarytooltips-common.toml"
-hash = "be5c03ce2c2a87e17f310c2422ba8b2e3e26bd32d87c52628b8c047b76616b7e"
+hash = "980e0777922f2d3e04af022194f302a613d39d591f73930f6c9b56fd2c01328c"
 
 [[files]]
 file = "config/nerb.yaml"
@@ -127,6 +127,10 @@ hash = "81e79c3899f153b0fab12eeece114ba74ad2eeccd9c62473c87ab9e43afb381b"
 [[files]]
 file = "config/storagedrawers-common.toml"
 hash = "7c99c977130eb3c803b36d1893203952fd2ee649ea3bd834327d359e5a1866b2"
+
+[[files]]
+file = "config/tempad-client.jsonc"
+hash = "51374e71e6b71167d03d18138adabdb46df0148207e2674284cdc799f6e55be6"
 
 [[files]]
 file = "config/tempad.jsonc"
