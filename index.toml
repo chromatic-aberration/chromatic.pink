@@ -243,6 +243,11 @@ hash = "55b13b685b386dd40c882946bb00545c7997a652a653c0000fe6610b1360fad8"
 metafile = true
 
 [[files]]
+file = "mods/bellsandwhistles.pw.toml"
+hash = "262483c4f54a8171396664e16917c2d2f9145db7f9052fac99aebfb53b40e3cb"
+metafile = true
+
+[[files]]
 file = "mods/biomes-o-plenty.pw.toml"
 hash = "378eb4b529a35df88348c528665641d34b3e80189f7a9c4129ba071bf0cefa03"
 metafile = true
@@ -325,6 +330,11 @@ metafile = true
 [[files]]
 file = "mods/craftpresence.pw.toml"
 hash = "6a2bc5d45663682a706ad9c06caa5411bdeeaf7cc5e1bd51587a461c6c3bc68d"
+metafile = true
+
+[[files]]
+file = "mods/create-connected.pw.toml"
+hash = "a69f6a12d1cbf4eb25ae928796dc96f51c4f26081665c413be35172f1de558b8"
 metafile = true
 
 [[files]]
@@ -490,6 +500,11 @@ metafile = true
 [[files]]
 file = "mods/immersive-aircraft.pw.toml"
 hash = "33c914607f09bca18480e8e56ee2963808a1bd6d195c7c3f52f1f7a7397291f1"
+metafile = true
+
+[[files]]
+file = "mods/interiors.pw.toml"
+hash = "dc5120c1a6e91cd9c3ffd93190e3e093d1013ee5f55c6a3feb64d9f43f5f14fd"
 metafile = true
 
 [[files]]
