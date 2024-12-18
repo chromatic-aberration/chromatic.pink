@@ -38,7 +38,7 @@ hash = "92d711d3dcd68e93d829a084b7527dc8d90a67d7350e7696a54e3c8c322fee7c"
 
 [[files]]
 file = "config/defaultoptions/keybindings.txt"
-hash = "3c7ffa2421a3efe61ad286c52c9176fe2aafdc8ec1ee460d1db39db13053003e"
+hash = "d14cabacb2d39909196a10b038f5590df56cdeed8ce547f85ad910518ea82063"
 
 [[files]]
 file = "config/defaultoptions/options.txt"
@@ -163,6 +163,11 @@ hash = "df44e54caf6a1c076a941974f31f7336b1705eb54db4e2498c3eb48b1edcd68b"
 metafile = true
 
 [[files]]
+file = "mods/ae2-toggleable-viewcell.pw.toml"
+hash = "96b8ecff2e7e683509dfd303ee712ae6b8f9f7b806d2c647a6dab74d8e226ee9"
+metafile = true
+
+[[files]]
 file = "mods/alexs-mobs.pw.toml"
 hash = "5e1239fd67c97c042d09cf38664698c9d1a3cfbc50d779fc550c461cf6aeb565"
 metafile = true
@@ -210,6 +215,11 @@ metafile = true
 [[files]]
 file = "mods/ars-energistique.pw.toml"
 hash = "fe693ae80d95c3b06c0c91285417bf58d13e1e1d69496d35224dbf0002d54476"
+metafile = true
+
+[[files]]
+file = "mods/ars-instrumentum.pw.toml"
+hash = "a21b070c85af000dd4385876cfda648205de70079f7c9bd8bd2b66e4b4b1d83c"
 metafile = true
 
 [[files]]

@@ -129,7 +129,7 @@ key_key.jei.previousPage:key.keyboard.unknown:NONE
 key_key.jei.toggleWildcardHideIngredient:key.keyboard.unknown:NONE
 key_key.jei.closeRecipeGui:key.keyboard.escape:NONE
 key_key.jei.focusSearch:key.keyboard.f:CONTROL
-key_key.jei.recipeBack:key.keyboard.q:NONE
+key_key.jei.recipeBack:key.keyboard.w:NONE
 key_key.jei.maxTransferRecipeBookmark:key.mouse.left:CONTROL
 key_key.jei.toggleHideIngredient:key.keyboard.unknown:NONE
 key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
