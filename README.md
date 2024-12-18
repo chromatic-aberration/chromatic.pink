@@ -1,5 +1,5 @@
 > [!NOTE]
-> 1.4.0
+> 1.4.1
 
 # Tech:
 
@@ -35,6 +35,7 @@
   - Ars Énergistique: + do Applied Energistics 2
   - Not Enough Glyphs
   - Too Many Glyphs
+  - [Ars Instrumentum](<https://www.curseforge.com/minecraft/mc-mods/ars-instrumentum>)
 
 # World Gen:
 
