@@ -29,6 +29,10 @@ file = "config/alexsmobs.toml"
 hash = "c944598fba0430e071cd9d57303a0f83dc1273fb6ccb3024b8dd15a81b3f2230"
 
 [[files]]
+file = "config/ars_instrumentum-client.toml"
+hash = "67c5c55a352231080d3e929d2225816674fda3f659d0b404c7ce5cad67c20599"
+
+[[files]]
 file = "config/colorfulhearts.toml"
 hash = "b9cfc5d72312578e8f58be8a08a447c7a4fd7a7a25e48d769058c2f7e87a4c32"
 
