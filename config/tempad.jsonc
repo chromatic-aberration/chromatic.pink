@@ -28,7 +28,7 @@
      * The amount of fuel that the timedoor will consume on opening of the timedoor.
      * Type: Integer
      */
-    "timedoorFuelAmount": 300000,
+    "timedoorFuelAmount": 420000,
     /*
      * The amount of fuel that the timedoor can hold.
      * Type: Integer
@@ -43,7 +43,7 @@
      * The amount of fuel that the advanced timedoor can hold.
      * Type: Integer
      */
-    "advancedTimedoorFuelCapacity": 5040000,
+    "advancedTimedoorFuelCapacity": 17280000,
     // The type of fuel that the timedoor will consume.
     "timedoorFuelType": "tempad:energy",
     // The type of fuel that the advanced timedoor will consume.
