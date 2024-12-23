@@ -3,9 +3,7 @@
 
 # Exclude README
 /README.md
-.htaccess
 chromatic.pink.zip
 packwiz.exe
 tools
-modjars
-mods.md
+2.0

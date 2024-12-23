@@ -1,10 +1,7 @@
-packwiz.exe
+*.exe
 *.jar
 tools
 
-# Exclude exported CurseForge zip files
 *.zip
 !chromatic.pink.zip
-
-# Exclude exported Modrinth modpacks
 *.mrpack
