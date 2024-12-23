@@ -45,7 +45,7 @@
      */
     "advancedTimedoorFuelCapacity": 17280000,
     // The type of fuel that the timedoor will consume.
-    "timedoorFuelType": "tempad:energy",
+    "timedoorFuelType": "tempad:fluid",
     // The type of fuel that the advanced timedoor will consume.
-    "advancedTimedoorFuelType": "tempad:energy"
+    "advancedTimedoorFuelType": "tempad:fluid"
 }   

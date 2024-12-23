@@ -1,0 +1,18 @@
+name = "Tempad With Shaders"
+filename = "tempadwithshaders-1.20.1-1.0.0.jar"
+side = "client"
+
+[download]
+hash-format = "sha1"
+hash = "8e3eb00ee9d7d0754689a9709cdc5320f717abd3"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5380322
+project-id = 1019300
+
+[option]
+optional = true
+default = false
+description = "wymygany tylko uzywajac shaderow z moda oculus (inaczej portale nie sa widoczne z wlaczonymi shaderami)"

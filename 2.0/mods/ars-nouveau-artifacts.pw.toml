@@ -1,0 +1,13 @@
+name = "Ars Nouveau Artifacts"
+filename = "arsnouveauartifacts-1.0.1-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "a5192fe48fe09c67bf2f786d9a9758001f3d58cb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5932033
+project-id = 1141202

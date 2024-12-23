@@ -1,0 +1,13 @@
+name = "AE2 Toggleable ViewCell"
+filename = "AE2ToggleableViewCell-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/7GNdjsfs/versions/d7jkyARB/AE2ToggleableViewCell-1.20.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "1e3354a823004089aa9273a7b862b986237dfb5d1cc75157e97fe94e44d1fb93198ca9f7e063ba9a2a932cba1ba8b63f532fcd46488860705ead40a8a5724427"
+
+[update]
+[update.modrinth]
+mod-id = "7GNdjsfs"
+version = "d7jkyARB"

@@ -1,0 +1,13 @@
+name = "chromatic.pink"
+author = "chromaetheral"
+version = "1.4.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "baa7223115a04e8435abbf8d87b5e4765032347af8dca11bcedb0a915327be32"
+
+[versions]
+forge = "47.3.12"
+minecraft = "1.20.1"
