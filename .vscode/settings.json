@@ -1,0 +1,20 @@
+{
+    "files.associations": {
+        "cstdlib": "cpp",
+        "xstring": "cpp",
+        "vector": "cpp",
+        "string": "cpp"
+    },
+    "C_Cpp.files.exclude": {
+        "launcher/old_launcher/**": true
+    },
+    "files.watcherExclude": {
+        "launcher/old_launcher/**": true
+    },
+    "search.exclude": {
+        "launcher/old_launcher/**": true
+    },
+    "files.exclude": {
+        "launcher/old_launcher/**": true
+    }
+}

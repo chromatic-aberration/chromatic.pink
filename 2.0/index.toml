@@ -133,12 +133,8 @@ file = "config/storagedrawers-common.toml"
 hash = "7c99c977130eb3c803b36d1893203952fd2ee649ea3bd834327d359e5a1866b2"
 
 [[files]]
-file = "config/tempad-client.jsonc"
-hash = "51374e71e6b71167d03d18138adabdb46df0148207e2674284cdc799f6e55be6"
-
-[[files]]
 file = "config/tempad.jsonc"
-hash = "0c4d052d511304318d407a56c01e1dcda76164dbb2181436a7dcc9778a9b9f46"
+hash = "8b7b6db80b5d26dfba8f57da2a2f015a12295c99676593f4f2127f52c5120964"
 
 [[files]]
 file = "config/tradingpost-server.toml"

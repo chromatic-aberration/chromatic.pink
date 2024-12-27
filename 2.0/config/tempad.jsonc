@@ -42,7 +42,7 @@
     /*
      * The amount of fuel that the advanced timedoor can hold.
      * Type: Integer
-     */
+     */ 
     "advancedTimedoorFuelCapacity": 17280000,
     // The type of fuel that the timedoor will consume.
     "timedoorFuelType": "tempad:fluid",
