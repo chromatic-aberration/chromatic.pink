@@ -562,8 +562,8 @@ class Launcher(ctk.CTk):
 # Main function
 def main():
     logging.info("Starting launcher.")
-    parser = argparse.ArgumentParser(description="Tempad Launcher")
-    parser.add_argument('java_path', type=str, help='Path to Java executable')
+    parser = argparse.ArgumentParser(description="chromatic.pink Launcher")
+    parser.add_argument('java_path', nargs="?", type=str, default='javaw', help='Path to Java executable')
     args = parser.parse_args()
 
     # Initialize config
