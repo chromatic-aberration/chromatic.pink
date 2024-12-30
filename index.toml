@@ -21,20 +21,100 @@ file = "config/NoChatReports/NCR-ServerPreferences.json"
 hash = "df32843b853e0a493ef3a9b1e39276818294353fbb0d833f7f61e77da0f5bca1"
 
 [[files]]
+file = "config/adhooks-common.toml"
+hash = "19cb64a44e8c345d57dcf7c6c7f7e1d4383d1bc5d055d66b75caa0706cdf9052"
+
+[[files]]
 file = "config/ae2/client.json"
 hash = "dcc47dc0c1ede398f295edae60a8910a211614dc51f5efdc58a0baba55cc4dfd"
+
+[[files]]
+file = "config/ae2/common.json"
+hash = "c9987d1cc7b13f5b079676e50eedfa5cae85d864fc2cfd6862740dbb73e019dc"
+
+[[files]]
+file = "config/aether-client.toml"
+hash = "f5fcc55aa20e72e16c402fce681cb25a4892f147750867b3e3f0c11d82b80bc0"
+
+[[files]]
+file = "config/aether-common.toml"
+hash = "a4fdb9c6d5d53b39ee4231aa9bad95dd5aed0e771d084a50eae3eb983f003a87"
+
+[[files]]
+file = "config/alexscaves-general.toml"
+hash = "3a0e5fe707cae103e2ef6707c3013cdefbbb886259bc89f91eff08090f7ac632"
+
+[[files]]
+file = "config/alexscaves_biome_generation/primordial_caves.json"
+hash = "c36cc869004768245573fbd332e2b4081b064a2d9bbc519b8312d7e6f4bff1c5"
 
 [[files]]
 file = "config/alexsmobs.toml"
 hash = "7c01df704a66653df7793e4c6a856815be283106df03765f196c89bd962d463c"
 
 [[files]]
+file = "config/apotheosis/enchantments.cfg"
+hash = "6909debb76bba5b23af641201367fa510a15e2ca0d77338581e0e20cc5e72e12"
+
+[[files]]
+file = "config/apotheosis/garden.cfg"
+hash = "71cd8937eb945b6df0c9d706f453702739543c38529995343dc0ff6d4f16c194"
+
+[[files]]
+file = "config/apotheosis/potion.cfg"
+hash = "851c6e71323aafe7076f1b1098592f2aab1a781808d4d5651485e105029ce5c9"
+
+[[files]]
+file = "config/apotheosis/spawner.cfg"
+hash = "c129abd3e3e54df3fa49076d2676cec56e6f9fc4f3155bde31520d3ab3521ab3"
+
+[[files]]
+file = "config/apotheosis/village.cfg"
+hash = "2e5eff0acf912d4855a6bc001211f7f69e620a58429ae4157dcc0eb2d036a9e7"
+
+[[files]]
 file = "config/ars_instrumentum-client.toml"
 hash = "67c5c55a352231080d3e929d2225816674fda3f659d0b404c7ce5cad67c20599"
 
 [[files]]
+file = "config/ars_nouveau-server.toml"
+hash = "45e05ae5b7549b4978398c52a2bb2c882a5b88746671f5fa6dd60956545a373c"
+
+[[files]]
+file = "config/ars_nouveau/glyph_break.toml"
+hash = "70a8de5616d38f901a5edae71f207656951c2e5bf809ff522497e93a23e13cd0"
+
+[[files]]
+file = "config/ars_nouveau/glyph_harm.toml"
+hash = "638c7617189e8823ccb10ce6897bf75bf53ea9e60e7884e33500e239dea472f4"
+
+[[files]]
+file = "config/arseng-common.toml"
+hash = "e122707cbf268d6f39c7255546dc0fc388f50e6986b9d9a690292f05fc9cf842"
+
+[[files]]
+file = "config/arsomega/glyph_propagate_projectile.toml"
+hash = "c2388ba887366461efa3c0d16a320925c5a4fd971f9281fb2910a1891f511a3b"
+
+[[files]]
+file = "config/arsomega/glyph_propagate_self.toml"
+hash = "c2388ba887366461efa3c0d16a320925c5a4fd971f9281fb2910a1891f511a3b"
+
+[[files]]
+file = "config/arsomega/glyph_propagate_underfoot.toml"
+hash = "c2388ba887366461efa3c0d16a320925c5a4fd971f9281fb2910a1891f511a3b"
+
+[[files]]
+file = "config/buildinggadgets2-common.toml"
+hash = "40511c735b2445f95c1cd5009bb530b37f7239b925ea096944dbeb962b3126f9"
+
+[[files]]
 file = "config/colorfulhearts.toml"
-hash = "b9cfc5d72312578e8f58be8a08a447c7a4fd7a7a25e48d769058c2f7e87a4c32"
+hash = "c0e0528e4e5f3348c0121f8e952a053241181c416d4d631b596843f3f6f0bbcb"
+
+[[files]]
+file = "config/createaddition-common.toml"
+hash = "65e09c63e6252a6af2b39f746f16e31624f04ecb56af029dc8f984c459b1953b"
 
 [[files]]
 file = "config/creeperoverhaul.jsonc"
@@ -57,12 +137,36 @@ file = "config/defaultoptions/servers.dat"
 hash = "113360c4b861a54a0e352f61faf91c4842137f67e5862978e7a6942962ee6661"
 
 [[files]]
+file = "config/editmobdrops/editmobdrops.toml"
+hash = "dafa47070318a188454d9f19498e8042afa1660e4a42bf265c8397dc2b453203"
+
+[[files]]
+file = "config/farlanders-common.toml"
+hash = "d073193038a61df754ee0d9d89cb139533e9612e75b522308f5b6f421218f00e"
+
+[[files]]
 file = "config/findme.json"
 hash = "69503ce44e6aa15c514613abc82082096c6e46d56a2a626e9d4e56398a5d712a"
 
 [[files]]
+file = "config/goblintraders-entities.toml"
+hash = "2653b8404737315adbd3c7ba513ab79736f54186a0262aab9e925cb7ceb1c8dc"
+
+[[files]]
 file = "config/iceandfire-client.toml"
 hash = "a4dcf9cc2e7f541fe73ee2f9780694cb8e9c7738a0a06e2a456453c3a47a8b9d"
+
+[[files]]
+file = "config/iceandfire-common.toml"
+hash = "1160efd999ac133429e271b1f02317fca50ceea8774722ec5b3d8d8ed775efa2"
+
+[[files]]
+file = "config/infernalmobs.cfg"
+hash = "47e187c2d358a2bd99017d670a552a322d40b2726ce6b6762c075b07177cb53d"
+
+[[files]]
+file = "config/itemborders-common.toml"
+hash = "4bab4cc37ca8dd0baa1f8c9bc59ada741686256789ef3a30d1ec4c2825553bb1"
 
 [[files]]
 file = "config/jade/hide-blocks.json"
@@ -74,15 +178,11 @@ hash = "22b4560c3dc05da35a70bb6611da0ce04cff295ab8c663afd58e725c396a24b3"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "89e79c86ae56403daf4ba0723fbcaa48a20cee1612c7a9e2ecdf5ea43775b7f8"
+hash = "7f7f4054cbbfe387290320eca2f91fe8e5ba80cb674d6d5037a26d02cd0ab0c9"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "bcbae7802e2431db6c245da86e07ea8cb4a06300aa8a624a4f40a8de2f53f082"
-
-[[files]]
-file = "config/jade/sort-order.json"
-hash = "4955de8ae14cb239c6e6f3a0906e9f5f4c11619cac084f00d9f9119db3711d6f"
+hash = "79a58f739e4adb16dccf999d3786548f7d6133dfeb52cb3f783986c7dc72e100"
 
 [[files]]
 file = "config/jeiintegration-client.toml"
@@ -97,6 +197,10 @@ file = "config/legendarytooltips-common.toml"
 hash = "8f072fe5acfc5e84353b69902e38c82db2e94ebd34bba92818a97d5ca5b01578"
 
 [[files]]
+file = "config/mffs-common.toml"
+hash = "9ea455fa4bf40efe26e9494f8f0e3e2cc3f0110f5246c50fa417c9013961fc93"
+
+[[files]]
 file = "config/morered-client.toml"
 hash = "a169ed66a68793ba8563564e1db97a11b2cfc1c4ba13c3caafef0a50d7f3fcf7"
 
@@ -105,24 +209,40 @@ file = "config/nerb.yaml"
 hash = "297c899fead9c3e358d9fc45edcc241f4ffbc25b71a8c1c2c84609d8110b8eca"
 
 [[files]]
+file = "config/not_enough_glyphs/glyph_propagate_plane.toml"
+hash = "269cb12c166624fdaf5104bd269f0787ca4c98e5219c52b41bb11f3cc7234503"
+
+[[files]]
 file = "config/notenoughxp-common.toml"
 hash = "1b1bcff9156ef5bc8ec5bec8f76d2dff0cf7f5a238e36253311de61bcbee13b2"
 
 [[files]]
 file = "config/overloadedarmorbar-client.toml"
-hash = "a70bef61b1b96dc0f693073348a2412a53ec67122461994d531ecdc6a35f2433"
+hash = "f330e0cc108c724bf26016070f788b0077e602350cc6b0ad34356756835c3955"
 
 [[files]]
 file = "config/ping-wheel.json"
-hash = "bb9906338b3022847f1e23812a75548e1d444187470671e0b684bc48a782884a"
+hash = "b205a6fb625d717fae2e9ebb89c39581cfdc8d74ee18cf1b5d1c839d595e063f"
 
 [[files]]
 file = "config/ping-wheel.server.json"
-hash = "a9dcc4af7ab3572c5c512210276cb595154261cada410b0780ce2fc4616b70bb"
+hash = "8a8d6b0944230f97ddd7c3e3306416315f4addb482ca433b61f505240e0dda28"
 
 [[files]]
 file = "config/quark-common.toml"
 hash = "14a4a199c52a459fb8b97ef8a715b2bd5088c7959e62ce1320fb3507631867ec"
+
+[[files]]
+file = "config/rats-common.toml"
+hash = "c360d428fe1b21c2c515a79393f1a1b5665b0c5763e922eeea94a44d33e480e7"
+
+[[files]]
+file = "config/sebastrnlib-client.toml"
+hash = "6045f2b807be45907649e1e063a7056ca8169673d87de542052921f1f69b6e8f"
+
+[[files]]
+file = "config/shrink-common.toml"
+hash = "9c99dda3e4f93f2c74506d1dd66239927e0eaa0e86c05cf5434f1b7ff7fdbe16"
 
 [[files]]
 file = "config/simplemenu.json5"
@@ -137,6 +257,10 @@ file = "config/syp-common.toml"
 hash = "3088e94e6143090b6ff60c31d14617d3174747dffbdd7d191df08e6b1cb861d1"
 
 [[files]]
+file = "config/telepass-common.toml"
+hash = "f0ab94c974c19bacb3fdb8102c9f772fa9cac3d273a209f8098b6a724980e659"
+
+[[files]]
 file = "config/tempad.jsonc"
 hash = "6039c6c0b89a041d1581ffc75c62e003414936cb34f3c6fb27ba1f2621d2687b"
 
@@ -145,8 +269,24 @@ file = "config/terrablender.toml"
 hash = "4f08dde825f2f9564f3ebce6e452639dacfaa0fd6ca709bd7c8ee4e6ab33e824"
 
 [[files]]
+file = "config/tomeofblood/base-common.toml"
+hash = "de8cb85419b3ca3e599f69b83805f2ce7750b1c41d6e228a0edeedcc2edf602f"
+
+[[files]]
+file = "config/tomeofblood/glyph_sentient_harm.toml"
+hash = "37d8b182412e96a4e72df4f96547cdb6464b5d13587044498dd093d0312ca0fe"
+
+[[files]]
+file = "config/tomeofblood/glyph_sentient_wrath.toml"
+hash = "21fe4c01ac0309fc5211b5801c0e630d384be8c5d1e79813a2d0dc1848c393b8"
+
+[[files]]
 file = "config/toolkit.txt"
 hash = "6f0aa01158017d0044d8b5ef741ce367e72ca8e4b31452ba99a890c5e6d6f080"
+
+[[files]]
+file = "config/toomanyglyphs/glyph_lay_on_hands.toml"
+hash = "8b55581276c0cfc770326a50d49583b699c851dc71f3fcae0eab08dd81934b1b"
 
 [[files]]
 file = "config/tradingpost-server.toml"
@@ -158,11 +298,59 @@ hash = "6c3d9c2beda86c011630543c2687d30dda0303e4ef8cdb3fc867e7c8bb2c2721"
 
 [[files]]
 file = "config/travelerstitles-forge-1_20.toml"
-hash = "bf728f2fe5cd1b09e066ecef5ab1f3bdf1a1b34f93421743a85215a949f1dbff"
+hash = "1fd3af0ffe3d5dcd6df8770f6c80ad61393c84ab8ce85470d248a412e90a1717"
+
+[[files]]
+file = "config/vivecraft-server-config.toml"
+hash = "aeddfd488790f33dde051239e598fb0c343b113ebbec319b3d41a42c719a1894"
+
+[[files]]
+file = "config/waddles-common.toml"
+hash = "1e2aa00e692010833ae08bfa542e3d20fa0ca4405b360ecefaed0e2ce3f2eb7a"
 
 [[files]]
 file = "config/watut-common.toml"
 hash = "f39ba95b8eed84a909b1aafba3e70ec36d037c99938299a362dbd2e543760cf9"
+
+[[files]]
+file = "config/waystones-common.toml"
+hash = "f76ba6e61ef74158d54c8e0a68831aa71c07e740e6667e8eef155ef209e0b6b8"
+
+[[files]]
+file = "defaultconfigs/aether-server.toml"
+hash = "c402968a8dbf5be9c24a3860f260a3b3420a12c78f7b988eccd032d306318503"
+
+[[files]]
+file = "defaultconfigs/fastleafdecay-server.toml"
+hash = "4cdc8643f66d4507a981d30d30e2a94ea5745db393cbc9a2b2cdaaa9490cbf01"
+
+[[files]]
+file = "defaultconfigs/journeymap-server.toml"
+hash = "0c75658bc32856f12a91c876301aff664c29a40a46241d18a6d45b92cc6ce9a1"
+
+[[files]]
+file = "defaultconfigs/sebastrnlib-server.toml"
+hash = "2a5a7e97cc8b21baa4a3f4b06fb48383abe8638f50b0138d3127ef22f6deb010"
+
+[[files]]
+file = "defaultconfigs/solcarrot-server.toml"
+hash = "1e9f302f0f1eb378e49492846e43e6a0b76c5b22891874e94d3ab7521dd3f2fb"
+
+[[files]]
+file = "defaultconfigs/sophisticatedbackpacks-server.toml"
+hash = "6b65c0348e088a98f2fd1e1999bb33f42e8f76d196a2767550afab92616fc0b5"
+
+[[files]]
+file = "defaultconfigs/sophisticatedstorage-server.toml"
+hash = "79c090b87a72c50f9fc8c10c20dbdc2c3cf2ef7fe05196b1ce5539f19cda10a1"
+
+[[files]]
+file = "defaultconfigs/tiab-server.toml"
+hash = "ea3219bb8f0b32d2b01f69ce898380a840c46ccc52b97f3c59f455c2f63dfde0"
+
+[[files]]
+file = "launcher.log"
+hash = "a3903a1f29e5433a92b906b40240616c442c5a54c46bc3faef9c981d9d42b4cc"
 
 [[files]]
 file = "mods/ad-astra-giselle-addon.pw.toml"

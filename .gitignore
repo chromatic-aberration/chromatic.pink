@@ -1,4 +1,5 @@
 *.exe
+!packwiz.exe
 *.jar
 tools
 *.log
