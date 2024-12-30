@@ -26,7 +26,7 @@ hash = "dcc47dc0c1ede398f295edae60a8910a211614dc51f5efdc58a0baba55cc4dfd"
 
 [[files]]
 file = "config/alexsmobs.toml"
-hash = "c944598fba0430e071cd9d57303a0f83dc1273fb6ccb3024b8dd15a81b3f2230"
+hash = "7c01df704a66653df7793e4c6a856815be283106df03765f196c89bd962d463c"
 
 [[files]]
 file = "config/ars_instrumentum-client.toml"
@@ -94,7 +94,7 @@ hash = "792de8b7e7a5b2b3e8ee6da13c2766ad0d7b18f2e22c3c14bf80a05950fa3790"
 
 [[files]]
 file = "config/legendarytooltips-common.toml"
-hash = "980e0777922f2d3e04af022194f302a613d39d591f73930f6c9b56fd2c01328c"
+hash = "8f072fe5acfc5e84353b69902e38c82db2e94ebd34bba92818a97d5ca5b01578"
 
 [[files]]
 file = "config/morered-client.toml"
