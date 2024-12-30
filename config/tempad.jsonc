@@ -8,12 +8,12 @@
      * The amount of time in ticks that the timedoor will wait before closing itself after the owner walked through it.
      * Type: Integer
      */
-    "timedoorWaitTime": 180,
+    "timedoorWaitTime": 200,
     /*
      * The amount of time in ticks that the Tempad will add to the wait time when the player is in the Tempad.
      * Type: Integer
      */
-    "timedoorAddWaitTime": 20,
+    "timedoorAddWaitTime": 60,
     // Whether or not the Tempad should allow interdimensional travel.
     "allowInterdimensionalTravel": true,
     // Whether or not the Tempad should allow exporting of locations onto Location Cards.

@@ -1,4 +1,5 @@
 import crafttweaker.api.tag.MCTag;
 
-<tag:fluid:tempad:tempad_liquid_fuel>.clear();
-<tag:fluid:tempad:tempad_liquid_fuel>.add(<fluid:mekanism:uranium_oxide>);
+// tempad
+<tag:fluids:tempad:tempad_liquid_fuel>.clear();
+<tag:fluids:tempad:tempad_liquid_fuel>.addId(<resource:mekanism:uranium_oxide>);

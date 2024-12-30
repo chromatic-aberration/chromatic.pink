@@ -266,7 +266,7 @@ hash = "f0ab94c974c19bacb3fdb8102c9f772fa9cac3d273a209f8098b6a724980e659"
 
 [[files]]
 file = "config/tempad.jsonc"
-hash = "bec67324213fb3dad8d899e91469a6ee260a223a4498990cedb87fece728839e"
+hash = "4f3b2a2eafb1b8779294d42c42210494723da9ccbc94ce8338a330ffdc1d3739"
 
 [[files]]
 file = "config/terrablender.toml"
@@ -1484,4 +1484,4 @@ metafile = true
 
 [[files]]
 file = "scripts/tags.zs"
-hash = "3e2193a30e4882b142f1c755d66cba089e79e6a849b3913e731b6a0dcae7d80e"
+hash = "f290216f9e8b44ee736b1b0f7e6db4c3b80e5862c2f9303a31fbe5021ae0f2eb"
