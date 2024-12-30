@@ -3,12 +3,12 @@
      * The distance from the player that the Tempad is summoned.
      * Range: 1 - 10
      */
-    "distanceFromPlayer": 3,
+    "distanceFromPlayer": 2,
     /*
      * The amount of time in ticks that the timedoor will wait before closing itself after the owner walked through it.
      * Type: Integer
      */
-    "timedoorWaitTime": 160,
+    "timedoorWaitTime": 180,
     /*
      * The amount of time in ticks that the Tempad will add to the wait time when the player is in the Tempad.
      * Type: Integer
@@ -19,7 +19,7 @@
     // Whether or not the Tempad should allow exporting of locations onto Location Cards.
     "allowExporting": true,
     // Whether or not the Tempad should consume a cooldown when exporting a location.
-    "consumeCooldown": true,
+    "consumeCooldown": false,
     // Whether or not the Tempad should allow teleporting to waystones.
     "waystonesCompat": true,
     // Whether or not the Tempad should allow teleporting to waystones from the Fabric version of Waystones by LordDeatHunter (fwaystones) (ignore on forge).

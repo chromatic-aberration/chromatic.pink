@@ -1,0 +1,13 @@
+name = "L2 Library"
+filename = "l2library-2.4.31.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/4Vh3BQ3F/versions/ct1ifJ23/l2library-2.4.31.jar"
+hash-format = "sha512"
+hash = "a4e74a73e842c2e035ea2a775bd629731d408ee11efc84990193894a0b533193695e41c10bb0b42e26474bad1b7801214e34d6f0e5254e9bf5736843eb8023e4"
+
+[update]
+[update.modrinth]
+mod-id = "4Vh3BQ3F"
+version = "ct1ifJ23"

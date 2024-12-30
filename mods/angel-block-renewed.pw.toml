@@ -1,0 +1,13 @@
+name = "Angel Block Renewed"
+filename = "angelblockrenewed-forge-1.3-1.20.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/rq0QQVDc/versions/AMh7314Q/angelblockrenewed-forge-1.3-1.20.jar"
+hash-format = "sha512"
+hash = "85866e0872d14a52602ceed6aaa576505ec3ad67968f9bd63991d443abd8de827780ee2005604beb46ff4e5afbefa2ae06f8582b550ec8f8d34e6b548d07cdf5"
+
+[update]
+[update.modrinth]
+mod-id = "rq0QQVDc"
+version = "AMh7314Q"

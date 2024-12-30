@@ -1,0 +1,13 @@
+name = "CreateTweaker"
+filename = "CreateTweaker-forge-1.20.1-4.0.13.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vEila6nl/versions/h4ISQV3j/CreateTweaker-forge-1.20.1-4.0.13.jar"
+hash-format = "sha512"
+hash = "250d714af39c5265a394453e2dc27414d7bc6d893466b3af588754986129ae211299c4c16baac1620e112d7b78f2e045404eee72fe9a295effed7411c2be0bd4"
+
+[update]
+[update.modrinth]
+mod-id = "vEila6nl"
+version = "h4ISQV3j"

@@ -1,0 +1,13 @@
+name = "Modular Golems"
+filename = "modulargolems-2.4.44.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/gtGDlsAD/versions/drab1STJ/modulargolems-2.4.44.jar"
+hash-format = "sha512"
+hash = "41e1b81222cf79fc77389061654a99d64f8f9c982b2d81e6aa443a0e7fd67cc11a2131c4542011f8f98a2ee4a41fa57defb644990619b603512395b767488f18"
+
+[update]
+[update.modrinth]
+mod-id = "gtGDlsAD"
+version = "drab1STJ"
