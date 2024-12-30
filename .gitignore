@@ -11,3 +11,6 @@ launcher/config/tempad-client.jsonc
 *.mrpack
 
 */build
+
+.tempad_initialized
+tempad-client.jsonc

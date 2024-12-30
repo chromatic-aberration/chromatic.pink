@@ -35,6 +35,8 @@ logger.addHandler(file_handler)
 logger.addHandler(console_handler)
 
 # Constants
+BASE_PATH = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+THEME_PATH = os.path.join(BASE_PATH, "pink.json")
 CONFIG_DIR = os.path.join(os.path.dirname(sys.argv[0]), 'config')
 CONFIG_FILE = os.path.join(CONFIG_DIR, 'tempad-client.jsonc')
 INIT_FILE = os.path.join(os.path.dirname(sys.argv[0]), '.tempad_initialized')
@@ -343,7 +345,7 @@ class Launcher(ctk.CTk):
             
             self.resizable(False, False)
             ctk.set_appearance_mode("dark")
-            ctk.set_default_color_theme("pink.json")
+            ctk.set_default_color_theme(THEME_PATH)
 
             # Main frame
             logging.info("Creating main frame with CTk")
