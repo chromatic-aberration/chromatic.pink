@@ -1,7 +1,0 @@
-*.exe
-*.jar
-tools
-
-*.zip
-!chromatic.pink.zip
-*.mrpack

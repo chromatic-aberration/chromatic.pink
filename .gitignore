@@ -1,6 +1,7 @@
 *.exe
 *.jar
 tools
+*.log
 
 *.zip
 !chromatic.pink.zip
