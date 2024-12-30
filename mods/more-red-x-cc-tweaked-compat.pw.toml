@@ -1,0 +1,13 @@
+name = "More Red x CC:Tweaked Compat"
+filename = "MoreRed-CCT-Compat-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/e4uFcbDl/versions/DVOCes0G/MoreRed-CCT-Compat-1.20.1-1.0.0.jar"
+hash-format = "sha512"
+hash = "2931514718be05c42dceb4e5ebd76d05912ca0be99f5edf6b85f8786154bd094372c7d3f37cf1e66f46c262327507963b2b36a1fcefef88cd08e99f49224fe18"
+
+[update]
+[update.modrinth]
+mod-id = "e4uFcbDl"
+version = "DVOCes0G"

@@ -1,0 +1,13 @@
+name = "Tool Kit"
+filename = "ToolKit-forge-3.0.3-build.25+mc1.20.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/fWj0tJp5/versions/A8Dvyb2m/ToolKit-forge-3.0.3-build.25%2Bmc1.20.1.jar"
+hash-format = "sha512"
+hash = "5fa982e0ac9f204913e9062b849e5e78c567f49b4e5734335d02c1797a9e79fc4f309332307bd785b4e849456cd5a1acce69364f78a366e23437f8e1c55e0801"
+
+[update]
+[update.modrinth]
+mod-id = "fWj0tJp5"
+version = "A8Dvyb2m"

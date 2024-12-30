@@ -1,0 +1,13 @@
+name = "Tome of Blood: Rebirth"
+filename = "tomeofblood-1.20.1-0.4.4-all.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/W5NORTN9/versions/E1ra6iYX/tomeofblood-1.20.1-0.4.4-all.jar"
+hash-format = "sha512"
+hash = "a4eaf0cbcfc51e85a8a29fb63c09a050a06c5a3e713dbb22959ebecac7ec39ccc10ad0d736c2d2777925e9bb15ff263c3c2c8d124d9eded1687bc687f5820445"
+
+[update]
+[update.modrinth]
+mod-id = "W5NORTN9"
+version = "E1ra6iYX"

@@ -1,0 +1,13 @@
+name = "More Red"
+filename = "morered-1.20.1-4.0.0.4.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UxYNfnfx/versions/nmvr3DB5/morered-1.20.1-4.0.0.4.jar"
+hash-format = "sha512"
+hash = "f7597a4cb98d40bfb9bc344a1389db6a498b339ae10cdc710a3ab83ed993788cc332b899f3876b0dec79e12c57dd93fb72b950c240cae4ac818f68d7fa48f48f"
+
+[update]
+[update.modrinth]
+mod-id = "UxYNfnfx"
+version = "nmvr3DB5"

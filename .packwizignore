@@ -8,4 +8,5 @@ tools
 *.html
 2.0
 CNAME
+.vscode
 launcher
