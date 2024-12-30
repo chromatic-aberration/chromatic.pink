@@ -16,7 +16,7 @@
 	# Configure tooltip for NBT data.
 	nbtTooltipMode = "onShiftAndDebug"
 	# Configure tooltip for registry name. E.g. minecraft:stone
-	registryNameTooltipMode = "onShiftAndDebug"
+	registryNameTooltipMode = "disabled"
 	# Configure tooltip for tags. E.g. forge:ingot, minecraft:planks
 	tagsTooltipMode = "onShiftAndDebug"
 	# Configure tooltip for translation key. E.g. block.minecraft.stone
