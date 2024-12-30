@@ -27,7 +27,7 @@ file_handler.setFormatter(file_formatter)
 # Console handler
 console_handler = logging.StreamHandler(sys.stdout)
 console_handler.setLevel(logging.DEBUG)
-console_formatter = logging.Formatter('%(asctime)s:%(levelname)s:[1;36mlauncher[0m:%(message)s')
+console_formatter = logging.Formatter('LAUNCHER:%(asctime)s:%(levelname)s:%(message)s')
 console_handler.setFormatter(console_formatter)
 
 # Add handlers to the logger
