@@ -9,3 +9,5 @@ launcher/config/tempad-client.jsonc
 *.zip
 !chromatic.pink.zip
 *.mrpack
+
+*/build
