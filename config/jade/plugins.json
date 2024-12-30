@@ -67,6 +67,9 @@
     "energy": true,
     "tooltip_renderer": true
   },
+  "appliedcooking": {
+    "kitchen_station": true
+  },
   "supplementaries": {
     "hat_stand": true
   },

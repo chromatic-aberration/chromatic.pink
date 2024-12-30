@@ -1,6 +1,6 @@
 {
   "defaultChannelMode": "AUTO",
   "playerTrackingEnabled": true,
-  "msToRegenerate": 500,
-  "rateLimit": 6
+  "msToRegenerate": 300,
+  "rateLimit": 7
 }

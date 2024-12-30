@@ -8,7 +8,7 @@
   "nameLabelForced": true,
   "pingSize": 400,
   "channel": "",
-  "removeRadius": 3,
+  "removeRadius": 2,
   "raycastDistance": 1024,
   "safeZoneLeft": 5,
   "safeZoneRight": 5,
