@@ -1,10 +1,9 @@
-*.exe
-!packwiz.exe
 *.jar
 tools
 *.log
 launcher/.tempad_initialized
 launcher/config/tempad-client.jsonc
+launcher/dist
 
 *.zip
 !chromatic.pink.zip

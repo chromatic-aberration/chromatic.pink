@@ -47,7 +47,7 @@ MINECRAFT_SERVER_PORT = 26955
 JAVA_DEFAULT_ARGS = ["-jar", "packwiz-installer-bootstrap.jar", "http://chromatic.pink/pack.toml"]
 CHANGELOG_URL = "https://discord.com/channels/1315863508320804905/1318760261229744190"
 MODLIST_URL = "https://github.com/chromatic-aberration/chromatic.pink/blob/main/README.md"
-LAUNCHER_VER = "0.1"
+LAUNCHER_VER = "0.1.1"
 
 # Preset colors (hexadecimal representation)
 PRESET_COLORS = [
