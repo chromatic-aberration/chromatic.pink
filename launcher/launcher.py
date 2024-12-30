@@ -134,18 +134,6 @@ def check_server_status(label_status, label_players):
         label_status.configure(text="Server Offline", text_color="#f04351")
         label_players.configure(text="")
 
-# Start Minecraft with the provided Java path
-def start_minecraft(java_path):
-    logging.info("Starting Minecraft.")
-    try:
-        args = [java_path] + JAVA_DEFAULT_ARGS
-        process = subprocess.Popen(args, cwd=os.path.dirname(sys.argv[0]))
-        return_code = process.wait()
-        os._exit(return_code)  # Exit with code 0
-    except Exception as e:
-        logging.error(f"Error starting Minecraft: {e}")
-        os._exit(1)  # Exit with error code
-
 # Open URL in default browser
 def open_url(url):
     logging.info(f"Opening URL: {url}")
@@ -539,7 +527,16 @@ class Launcher(ctk.CTk):
         logging.info(f"Updated modpack version label to {version}")
 
     def on_start(self):
-        start_minecraft(self.java_path)
+        logging.info("Starting Minecraft.")
+        try:
+            args = [self.java_path] + JAVA_DEFAULT_ARGS
+            process = subprocess.Popen(args, cwd=os.path.dirname(sys.argv[0]))
+            self.destroy()
+            return_code = process.wait()
+            os._exit(return_code)  # Exit with code 0
+        except Exception as e:
+            logging.error(f"Error starting Minecraft: {e}")
+            os._exit(1)  # Exit with error code
 
     def on_change_color(self):
         # Open custom color picker
