@@ -37,10 +37,10 @@ logger.addHandler(console_handler)
 # Constants
 BASE_PATH = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
 THEME_PATH = os.path.join(BASE_PATH, "pink.json")
+LOGO_PATH = os.path.join(BASE_PATH, 'logo.png')
 CONFIG_DIR = os.path.join(os.path.dirname(sys.argv[0]), 'config')
 CONFIG_FILE = os.path.join(CONFIG_DIR, 'tempad-client.jsonc')
 INIT_FILE = os.path.join(os.path.dirname(sys.argv[0]), '.tempad_initialized')
-LOGO_PATH = os.path.join(CONFIG_DIR, 'simplemenu', 'logo', 'edition.png')
 PACK_TOML_URL = "http://chromatic.pink/pack.toml"
 MINECRAFT_SERVER_IP = "188.165.47.57"
 MINECRAFT_SERVER_PORT = 26955
