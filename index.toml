@@ -1,18 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".gitattributes copy"
-hash = "6e8b104225dd8acf3acbb00a8283a4c40a29151f2d48a5b1a868dbd8f43845f2"
-
-[[files]]
-file = ".gitignore copy"
-hash = "54a2c5313877de6fa3d01b437d0966ec41bae74196933dba6ec150cb2a41b08b"
-
-[[files]]
-file = ".packwizignore copy"
-hash = "b370b2f909f15cb672be7036fae27fde29408c57dc0843997e02f3397991eb7d"
-
-[[files]]
 file = "config/Mekanism/common.toml"
 hash = "32dd9b2e18b67a1e94026124000d720b36ddb24be092303141a4901f33d7b7c0"
 
@@ -98,7 +86,7 @@ hash = "4955de8ae14cb239c6e6f3a0906e9f5f4c11619cac084f00d9f9119db3711d6f"
 
 [[files]]
 file = "config/jeiintegration-client.toml"
-hash = "2766d4c9764201890ccac68ac9d30e30d7c2bb75c859ad9e94a86876dffae9c9"
+hash = "01cc598664e44270a018a78133510fe997190577eb5ed333d82799dc5cb30386"
 
 [[files]]
 file = "config/jmi-client.toml"
@@ -109,12 +97,16 @@ file = "config/legendarytooltips-common.toml"
 hash = "980e0777922f2d3e04af022194f302a613d39d591f73930f6c9b56fd2c01328c"
 
 [[files]]
+file = "config/morered-client.toml"
+hash = "a169ed66a68793ba8563564e1db97a11b2cfc1c4ba13c3caafef0a50d7f3fcf7"
+
+[[files]]
 file = "config/nerb.yaml"
 hash = "297c899fead9c3e358d9fc45edcc241f4ffbc25b71a8c1c2c84609d8110b8eca"
 
 [[files]]
 file = "config/notenoughxp-common.toml"
-hash = "c22050a6893f5f70a898a234cdba18a3cbe3336602aa71f4c60af591f320ee3e"
+hash = "1b1bcff9156ef5bc8ec5bec8f76d2dff0cf7f5a238e36253311de61bcbee13b2"
 
 [[files]]
 file = "config/overloadedarmorbar-client.toml"
@@ -122,7 +114,7 @@ hash = "a70bef61b1b96dc0f693073348a2412a53ec67122461994d531ecdc6a35f2433"
 
 [[files]]
 file = "config/ping-wheel.json"
-hash = "9732c476a078bd448d9af77f90cd62946f80ba4d094d6bd33a56875c6f559859"
+hash = "bb9906338b3022847f1e23812a75548e1d444187470671e0b684bc48a782884a"
 
 [[files]]
 file = "config/ping-wheel.server.json"
@@ -171,10 +163,6 @@ hash = "bf728f2fe5cd1b09e066ecef5ab1f3bdf1a1b34f93421743a85215a949f1dbff"
 [[files]]
 file = "config/watut-common.toml"
 hash = "f39ba95b8eed84a909b1aafba3e70ec36d037c99938299a362dbd2e543760cf9"
-
-[[files]]
-file = "index copy.toml"
-hash = "ace2c9cae38c5ea7100b7d246125c6c1e4116a2a7482515696759aa28d6bf9ee"
 
 [[files]]
 file = "mods/ad-astra-giselle-addon.pw.toml"
@@ -1290,10 +1278,6 @@ metafile = true
 file = "mods/zeta.pw.toml"
 hash = "583961055f3e588845076ace49394c9ca830706a73eb1b4a4cbfe4db9f0950e9"
 metafile = true
-
-[[files]]
-file = "pack copy.toml"
-hash = "5d0a2dd424dba8dea41e6203ab4185510138b74110aac5940e63d9f17486964c"
 
 [[files]]
 file = "resourcepacks/when-dungeons-arise-spacing-tweaks.pw.toml"
