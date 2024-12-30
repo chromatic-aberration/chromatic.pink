@@ -334,7 +334,7 @@ hash = "2a5a7e97cc8b21baa4a3f4b06fb48383abe8638f50b0138d3127ef22f6deb010"
 
 [[files]]
 file = "defaultconfigs/solcarrot-server.toml"
-hash = "1e9f302f0f1eb378e49492846e43e6a0b76c5b22891874e94d3ab7521dd3f2fb"
+hash = "978140c4b69cab5d73ac84fa44a99204dd1cc3ba0ac1da8ecb7c93d0d3edf433"
 
 [[files]]
 file = "defaultconfigs/sophisticatedbackpacks-server.toml"
