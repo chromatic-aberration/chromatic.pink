@@ -27,7 +27,7 @@ file_handler.setFormatter(file_formatter)
 # Console handler
 console_handler = logging.StreamHandler(sys.stdout)
 console_handler.setLevel(logging.DEBUG)
-console_formatter = logging.Formatter('%(asctime)s:%(levelname)s:\033[35mlauncher\033[0m:%(message)s')
+console_formatter = logging.Formatter('%(asctime)s:%(levelname)s:\x1b[35mlauncher\x1b[0m:%(message)s')
 console_handler.setFormatter(console_formatter)
 
 # Add handlers to the logger
@@ -532,6 +532,7 @@ class Launcher(ctk.CTk):
         logging.info("Starting Minecraft.")
         try:
             args = [self.java_path] + JAVA_DEFAULT_ARGS
+            logging.debug(f'starting subprocess: {args} in {os.path.dirname(sys.argv[0])}')
             process = subprocess.Popen(args, cwd=os.path.dirname(sys.argv[0]))
             self.destroy()
             return_code = process.wait()
@@ -567,6 +568,7 @@ def main():
     parser = argparse.ArgumentParser(description="chromatic.pink Launcher")
     parser.add_argument('java_path', nargs="?", type=str, default='javaw', help='Path to Java executable')
     args = parser.parse_args()
+    logging.info(f'Args received: {args}')
 
     # Initialize config
     initialize_config()
