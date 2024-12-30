@@ -6,6 +6,7 @@ tools
 *.md
 *.exe
 *.html
+*.log
 2.0
 CNAME
 .vscode
