@@ -2,6 +2,8 @@
 *.jar
 tools
 *.log
+launcher/.tempad_initialized
+launcher/config/tempad-client.jsonc
 
 *.zip
 !chromatic.pink.zip
