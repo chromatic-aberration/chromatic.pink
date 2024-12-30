@@ -253,6 +253,10 @@ file = "config/simplemenu/logo/edition.png"
 hash = "81e79c3899f153b0fab12eeece114ba74ad2eeccd9c62473c87ab9e43afb381b"
 
 [[files]]
+file = "config/starterkit/kits/Default.txt"
+hash = "007898d14e8efafe5ddb0e466a35f818ae416b4e0c9ec8996804c65a48e8ba45"
+
+[[files]]
 file = "config/syp-common.toml"
 hash = "3088e94e6143090b6ff60c31d14617d3174747dffbdd7d191df08e6b1cb861d1"
 
@@ -1477,3 +1481,7 @@ metafile = true
 file = "resourcepacks/when-dungeons-arise-spacing-tweaks.pw.toml"
 hash = "743763741aaea892ff4d9e5d373b18d9ecf55c71c7b1f428a2603ba063a944e3"
 metafile = true
+
+[[files]]
+file = "scripts/tags.zs"
+hash = "3e2193a30e4882b142f1c755d66cba089e79e6a849b3913e731b6a0dcae7d80e"
