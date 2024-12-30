@@ -17,7 +17,7 @@
 
 [filtering]
 	#Foods in this list won't affect the player's health nor show up in the food book.
-	blacklist = ["alexcaves:*block*", "alexcaves:*brick*", "alexcaves:rock_candy*", "alexcaves:*pole*", "alexcaves:*stair*", "alexcaves:*wall*" ]
+	blacklist = ["alexscaves:*block*", "alexscaves:*brick*", "alexscaves:rock_candy*", "alexscaves:*pole*", "alexscaves:*stair*", "alexscaves:*wall*" ]
 	#When this list contains anything, the blacklist is ignored and instead only foods from here count.
 	whitelist = []
 	#The minimum hunger value foods need to provide in order to count for milestones, in half drumsticks.
