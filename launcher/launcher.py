@@ -139,9 +139,9 @@ def start_minecraft(java_path):
     logging.info("Starting Minecraft.")
     try:
         args = [java_path] + JAVA_DEFAULT_ARGS
-        subprocess.Popen(args, cwd=os.path.dirname(sys.argv[0]))
-        logging.info("Minecraft started successfully.")
-        os._exit(0)  # Exit with code 0
+        process = subprocess.Popen(args, cwd=os.path.dirname(sys.argv[0]))
+        return_code = process.wait()
+        os._exit(return_code)  # Exit with code 0
     except Exception as e:
         logging.error(f"Error starting Minecraft: {e}")
         os._exit(1)  # Exit with error code
