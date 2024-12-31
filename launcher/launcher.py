@@ -531,7 +531,7 @@ class Launcher(ctk.CTk):
     def on_start(self):
         logging.info("Starting Minecraft.")
         try:
-            logging.info(f'starting subprocess: {args} in {os.path.dirname(sys.argv[0])}')
+            logging.info(f'starting subprocess: {self.java_path} + {JAVA_DEFAULT_ARGS} in {os.path.dirname(sys.argv[0])}')
             args = [self.java_path] + JAVA_DEFAULT_ARGS
             process = subprocess.Popen(args, cwd=os.path.dirname(sys.argv[0]))
             self.destroy()
