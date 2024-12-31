@@ -5,6 +5,10 @@ file = "config/Mekanism/common.toml"
 hash = "32dd9b2e18b67a1e94026124000d720b36ddb24be092303141a4901f33d7b7c0"
 
 [[files]]
+file = "config/Mekanism/generators.toml"
+hash = "10a5395287de894790af271911c90f9b62c5d35ee5832a03497693d3dc1907c4"
+
+[[files]]
 file = "config/NoChatReports/NCR-Client.json"
 hash = "bca357d99bfe1764d6586f3b685132b2f2be5c549a214830a5ebdc3cce30a423"
 
@@ -53,6 +57,22 @@ file = "config/alexsmobs.toml"
 hash = "7c01df704a66653df7793e4c6a856815be283106df03765f196c89bd962d463c"
 
 [[files]]
+file = "config/almostunified/debug.json"
+hash = "3e03a291b5310a6b94a45aff63e4731baa643701c42a968ed716483ccd1d5a37"
+
+[[files]]
+file = "config/almostunified/duplicates.json"
+hash = "40639e8cb9e9ea52b8557c50d29fc06e73e2ad1e7ca27ae5ce8fe2eca2e97188"
+
+[[files]]
+file = "config/almostunified/startup.json"
+hash = "ad711622f9b8c5cc8115f52396f5d82587b809fb20cbf9d94c7744aeebcaf4d5"
+
+[[files]]
+file = "config/almostunified/unify.json"
+hash = "173d69d97428152c69189ed06e3bf57dee8326ca554b047c27cae459eac01cc2"
+
+[[files]]
 file = "config/apotheosis/enchantments.cfg"
 hash = "6909debb76bba5b23af641201367fa510a15e2ca0d77338581e0e20cc5e72e12"
 
@@ -71,6 +91,10 @@ hash = "c129abd3e3e54df3fa49076d2676cec56e6f9fc4f3155bde31520d3ab3521ab3"
 [[files]]
 file = "config/apotheosis/village.cfg"
 hash = "2e5eff0acf912d4855a6bc001211f7f69e620a58429ae4157dcc0eb2d036a9e7"
+
+[[files]]
+file = "config/ars_additions-server.toml"
+hash = "65f3305a7e7583015df6d89f6a5dd5b77b5c4ad94ab1809d46505bfcb051efaf"
 
 [[files]]
 file = "config/ars_instrumentum-client.toml"
@@ -113,6 +137,10 @@ file = "config/colorfulhearts.toml"
 hash = "c0e0528e4e5f3348c0121f8e952a053241181c416d4d631b596843f3f6f0bbcb"
 
 [[files]]
+file = "config/cookingforblockheads-common.toml"
+hash = "7a58048a49f6d01f74524880592213db20e7f50d5e34b24ae741ebe906121d62"
+
+[[files]]
 file = "config/createaddition-common.toml"
 hash = "65e09c63e6252a6af2b39f746f16e31624f04ecb56af029dc8f984c459b1953b"
 
@@ -139,6 +167,14 @@ hash = "113360c4b861a54a0e352f61faf91c4842137f67e5862978e7a6942962ee6661"
 [[files]]
 file = "config/editmobdrops/editmobdrops.toml"
 hash = "dafa47070318a188454d9f19498e8042afa1660e4a42bf265c8397dc2b453203"
+
+[[files]]
+file = "config/enchdesc.json"
+hash = "c8760ba8229b074a93f97e779fb1d4cfba1844fc1427377fdb40c59318717df1"
+
+[[files]]
+file = "config/experienceobelisk-common.toml"
+hash = "016fb2e08b61599941e0327ce81366a1a1dea20bf02b978e0f0680d22d297bb7"
 
 [[files]]
 file = "config/farlanders-common.toml"
