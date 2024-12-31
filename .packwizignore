@@ -5,6 +5,7 @@ chromatic.pink.zip
 tools
 *.md
 packwiz.exe
+packwiz
 *.html
 *.log
 2.0
