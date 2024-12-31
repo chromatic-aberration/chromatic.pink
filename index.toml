@@ -353,6 +353,10 @@ file = "defaultconfigs/tiab-server.toml"
 hash = "ea3219bb8f0b32d2b01f69ce898380a840c46ccc52b97f3c59f455c2f63dfde0"
 
 [[files]]
+file = "launcher.exe"
+hash = "2271e71b7dfac3f4680cafe6e395dd245fd7caca5dc74eb4f8846824c0d4469e"
+
+[[files]]
 file = "mods/ad-astra-giselle-addon.pw.toml"
 hash = "dba6250d4074af49f6d335a97418f29cc10d329f9825fc51ab5c125700b845d8"
 metafile = true

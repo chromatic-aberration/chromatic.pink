@@ -27,7 +27,7 @@ file_handler.setFormatter(file_formatter)
 # Console handler
 console_handler = logging.StreamHandler(sys.stdout)
 console_handler.setLevel(logging.DEBUG)
-console_formatter = logging.Formatter('%(asctime)s:%(levelname)s:\033[35mlauncher\033[0m:%(message)s')
+console_formatter = logging.Formatter('LAUNCHER:%(asctime)s:%(levelname)s:%(message)s')
 console_handler.setFormatter(console_formatter)
 
 # Add handlers to the logger
@@ -35,17 +35,19 @@ logger.addHandler(file_handler)
 logger.addHandler(console_handler)
 
 # Constants
+BASE_PATH = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
+THEME_PATH = os.path.join(BASE_PATH, "pink.json")
+LOGO_PATH = os.path.join(BASE_PATH, 'logo.png')
 CONFIG_DIR = os.path.join(os.path.dirname(sys.argv[0]), 'config')
 CONFIG_FILE = os.path.join(CONFIG_DIR, 'tempad-client.jsonc')
 INIT_FILE = os.path.join(os.path.dirname(sys.argv[0]), '.tempad_initialized')
-LOGO_PATH = os.path.join(CONFIG_DIR, 'simplemenu', 'logo', 'edition.png')
 PACK_TOML_URL = "http://chromatic.pink/pack.toml"
 MINECRAFT_SERVER_IP = "188.165.47.57"
 MINECRAFT_SERVER_PORT = 26955
 JAVA_DEFAULT_ARGS = ["-jar", "packwiz-installer-bootstrap.jar", "http://chromatic.pink/pack.toml"]
 CHANGELOG_URL = "https://discord.com/channels/1315863508320804905/1318760261229744190"
 MODLIST_URL = "https://github.com/chromatic-aberration/chromatic.pink/blob/main/README.md"
-LAUNCHER_VER = "0.1"
+LAUNCHER_VER = "0.1.1"
 
 # Preset colors (hexadecimal representation)
 PRESET_COLORS = [
@@ -343,7 +345,7 @@ class Launcher(ctk.CTk):
             
             self.resizable(False, False)
             ctk.set_appearance_mode("dark")
-            ctk.set_default_color_theme("pink.json")
+            ctk.set_default_color_theme(THEME_PATH)
 
             # Main frame
             logging.info("Creating main frame with CTk")
@@ -529,6 +531,7 @@ class Launcher(ctk.CTk):
     def on_start(self):
         logging.info("Starting Minecraft.")
         try:
+            logging.info(f'starting subprocess: {args} in {os.path.dirname(sys.argv[0])}')
             args = [self.java_path] + JAVA_DEFAULT_ARGS
             process = subprocess.Popen(args, cwd=os.path.dirname(sys.argv[0]))
             self.destroy()
@@ -562,9 +565,10 @@ class Launcher(ctk.CTk):
 # Main function
 def main():
     logging.info("Starting launcher.")
-    parser = argparse.ArgumentParser(description="Tempad Launcher")
-    parser.add_argument('java_path', type=str, help='Path to Java executable')
+    parser = argparse.ArgumentParser(description="chromatic.pink Launcher")
+    parser.add_argument('java_path', nargs="?", type=str, default='javaw', help='Path to Java executable')
     args = parser.parse_args()
+    logging.info(f'Args received: {args}')
 
     # Initialize config
     initialize_config()
