@@ -3,17 +3,42 @@
 'legs' : '',
 'feet' : '',
 'offhand' : '',
-0 : '',
+0 : '{Count:1,id:"minecraft:stone_pickaxe"}',
 1 : '{Count:4,id:"minecraft:bread"}',
-2 : '{Count:1,id:"solcarrot:food_book"}',
-3 : '',
+2 : '{Count:1,id:"solcarrot:food_book"tag:{
+        display: {Name:'{"text":"§r§f§aJedzenioksiążka"}'}}}',
+3 : '{
+    Count:1,
+    id:"eccentrictome:tome>",
+    tag:{
+        display: {Name:'{"text":"§r§f§7Instrukcjoksiążka"}'},
+        "eccentrictome:mods": {
+            alexscaves: {"0": {id: "alexscaves:cave_book", Count: 1}},
+            buildinggadgets2: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "buildinggadgets2:buildinggadgets2book"}}},
+            advancedperipherals: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "advancedperipherals:manual"}}},
+            alexsmobs: {"0": {id: "alexsmobs:animal_dictionary", Count: 1}},
+            apotheosis: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "apotheosis:apoth_chronicle"}}},
+            ae2: {"0": {id: "ae2:guide", Count: 1}},
+            modulargolems: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "modulargolems:golem_guide"}}},
+            ars_nouveau: {"0": {id: "ars_nouveau:worn_notebook", Count: 1}},
+            mffs: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "mffs:handbook"}}},
+            bloodmagic: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "bloodmagic:guide"}}},
+            cookingforblockheads: {"0": {id: "cookingforblockheads:no_filter_edition", Count: 1}},
+            ad_astra: {"0": {id: "patchouli:guide_book", Count: 1, tag: {"patchouli:book": "ad_astra:astrodux"}}}
+        }
+    }
+}',
 4 : '',
 5 : '',
 6 : '',
 7 : '',
 8 : '',
-9 : '',
-10 : '',
+9 : '{Count:1,id:"tempad:tempad", tag:
+{
+    display: {Name:'{"text":"§r§f§dTempad.pink"}'},
+    BotariumData: {StoredFluids: [{Fluid: "mekanism:uranium_oxide", Amount: 3000}]}}
+}',
+10 : '{Count:1,id:"minecraft:name_tag"}',
 11 : '',
 12 : '',
 13 : '',
@@ -38,5 +63,5 @@
 32 : '',
 33 : '',
 34 : '',
-35 : '{Count:1,id:"tempad:tempad", tag: {display: {Name:'{"text":"§r§f§dTempad.pink"}'}, BotariumData: {Energy: 3600000}}}',
+35 : '',
 'effects' : '',

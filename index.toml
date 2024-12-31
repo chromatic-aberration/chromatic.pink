@@ -230,7 +230,7 @@ hash = "792de8b7e7a5b2b3e8ee6da13c2766ad0d7b18f2e22c3c14bf80a05950fa3790"
 
 [[files]]
 file = "config/legendarytooltips-common.toml"
-hash = "8f072fe5acfc5e84353b69902e38c82db2e94ebd34bba92818a97d5ca5b01578"
+hash = "cb8f9160457bdf2e46958224f1244601a3c11101943df9e5282f9a9a94e0cc92"
 
 [[files]]
 file = "config/mffs-common.toml"
@@ -289,8 +289,12 @@ file = "config/simplemenu/logo/edition.png"
 hash = "81e79c3899f153b0fab12eeece114ba74ad2eeccd9c62473c87ab9e43afb381b"
 
 [[files]]
+file = "config/starterkit.json5"
+hash = "8f7d278a624da2eaa9a909637552a0d3c41c1627cd797ddb3c58f91a0ac86a23"
+
+[[files]]
 file = "config/starterkit/kits/Default.txt"
-hash = "007898d14e8efafe5ddb0e466a35f818ae416b4e0c9ec8996804c65a48e8ba45"
+hash = "36338970a3b44610f3c6cf7f7bdf62f9ddd63e09f794b70781e6d0ad1be1dc17"
 
 [[files]]
 file = "config/syp-common.toml"
@@ -302,7 +306,7 @@ hash = "f0ab94c974c19bacb3fdb8102c9f772fa9cac3d273a209f8098b6a724980e659"
 
 [[files]]
 file = "config/tempad.jsonc"
-hash = "4f3b2a2eafb1b8779294d42c42210494723da9ccbc94ce8338a330ffdc1d3739"
+hash = "446f41193bfc44dfc6799598c17efe4c31b01b5b8f4fbe1b06dd5bfa5def2c93"
 
 [[files]]
 file = "config/terrablender.toml"

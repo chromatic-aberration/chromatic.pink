@@ -52,7 +52,7 @@
 	#    Combining selectors - Any number of selectors can be combined by separating them with a plus sign.  Examples: "minecraft:diamond_sword+&Enchantments", "minecraft:stick+~!common+&Damage=0"
 	[client.definitions]
 		level0_entries = ["!epic", "!rare"]
-		level1_entries = ["tempad:tempad"]
+		level1_entries = ["tempad:tempad", "eccentrictome:tome", "solcarrot:food_book"]
 		level2_entries = []
 		level3_entries = []
 		level4_entries = []
@@ -103,8 +103,8 @@
 	[client.colors]
 		level0_colors = [-6723294, -10864099, -266991104, -401208832]
 		level1_colors = [
-			"2_#f54d80_#964df5_#4df5f5_#69f54d_#f57d4d",
-			"2_#1fb6e4_#1fe45a_#e4b61f_#e41f39_#c31fe4",
+			"1.8_#f54d80_#964df5_#4df5f5_#69f54d_#f57d4d",
+			"1.8_#1fb6e4_#1fe45a_#e4b61f_#e41f39_#c31fe4",
 			"auto", "auto"
 		]
 		level2_colors = ["#FF8BAE", "auto", "auto", "auto"]
