@@ -2,8 +2,12 @@
 tools
 *.log
 launcher/.tempad_initialized
-launcher/config/tempad-client.jsonc
+launcher/config
 launcher/dist
+launcher/launcher.dist
+launcher/launcher.onefile-build
+launcher/launcher.build
+
 
 *.zip
 !chromatic.pink.zip
