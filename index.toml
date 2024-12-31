@@ -294,7 +294,7 @@ hash = "8f7d278a624da2eaa9a909637552a0d3c41c1627cd797ddb3c58f91a0ac86a23"
 
 [[files]]
 file = "config/starterkit/kits/Default.txt"
-hash = "36338970a3b44610f3c6cf7f7bdf62f9ddd63e09f794b70781e6d0ad1be1dc17"
+hash = "c718ec9cd4b098b756c07a26c3ed63d6bc2684b2f409335656e68f1a1a65d6a5"
 
 [[files]]
 file = "config/syp-common.toml"
