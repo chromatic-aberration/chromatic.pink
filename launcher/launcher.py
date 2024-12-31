@@ -577,6 +577,7 @@ def main():
     # Initialize and run GUI
     app = Launcher(args.java_path, config)
     app.mainloop()
+    os._exit(1)
 
 if __name__ == "__main__":
     main()
