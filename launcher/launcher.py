@@ -10,29 +10,29 @@ import customtkinter as ctk
 import webbrowser
 import subprocess
 from PIL import Image, ImageTk
-import logging
+# import logging
 
 from mcstatus import JavaServer
 
-# Enhanced logging configuration
-logger = logging.getLogger()
-logger.setLevel(logging.DEBUG)
+# # Enhanced logging configuration
+# logger = logging.getLogger()
+# logger.setLevel(logging.DEBUG)
 
-# File handler
-file_handler = logging.FileHandler('launcher.log')
-file_handler.setLevel(logging.DEBUG)
-file_formatter = logging.Formatter('%(asctime)s:%(levelname)s:%(message)s')
-file_handler.setFormatter(file_formatter)
+# # File handler
+# file_handler = logging.FileHandler('launcher.log')
+# file_handler.setLevel(logging.DEBUG)
+# file_formatter = logging.Formatter('%(asctime)s:%(levelname)s:%(message)s')
+# file_handler.setFormatter(file_formatter)
 
-# Console handler
-console_handler = logging.StreamHandler(sys.stdout)
-console_handler.setLevel(logging.DEBUG)
-console_formatter = logging.Formatter('LAUNCHER:%(asctime)s:%(levelname)s:%(message)s')
-console_handler.setFormatter(console_formatter)
+# # Console handler
+# console_handler = logging.StreamHandler(sys.stdout)
+# console_handler.setLevel(logging.DEBUG)
+# console_formatter = logging.Formatter('LAUNCHER:%(asctime)s:%(levelname)s:%(message)s')
+# console_handler.setFormatter(console_formatter)
 
-# Add handlers to the logger
-logger.addHandler(file_handler)
-logger.addHandler(console_handler)
+# # Add handlers to the logger
+# logger.addHandler(file_handler)
+# logger.addHandler(console_handler)
 
 # Constants
 BASE_PATH = getattr(sys, '_MEIPASS', os.path.dirname(os.path.abspath(__file__)))
@@ -63,7 +63,7 @@ PRESET_COLORS = [
 
 # Initialize configuration
 def initialize_config():
-    logging.info("Initializing configuration.")
+    # logging.info("Initializing configuration.")
     if not os.path.exists(INIT_FILE):
         os.makedirs(os.path.dirname(CONFIG_FILE), exist_ok=True)
         default_config = {
@@ -74,20 +74,20 @@ def initialize_config():
             json.dump(default_config, f, indent=4)
         with open(INIT_FILE, 'w') as f:
             f.write('initialized')
-        logging.info("Initialized configuration.")
+        # logging.info("Initialized configuration.")
 
 def read_config():
-    logging.info("Reading configuration.")
+    # logging.info("Reading configuration.")
     try:
         with open(CONFIG_FILE, 'r') as f:
             # Simple JSONC: remove lines starting with //
             lines = f.readlines()
             json_str = ''.join([line for line in lines if not line.strip().startswith('//')])
             config = json.loads(json_str)
-            logging.info("Configuration loaded successfully.")
+            # logging.info("Configuration loaded successfully.")
             return config
     except Exception as e:
-        logging.error(f"Error reading config: {e}")
+        # logging.error(f"Error reading config: {e}")
         # Return default config in case of error
         return {
             "color": 16722355,
@@ -95,31 +95,32 @@ def read_config():
         }
 
 def write_config(config):
-    logging.info("Writing configuration.")
+    # logging.info("Writing configuration.")
     try:
         with open(CONFIG_FILE, 'w') as f:
             json.dump(config, f, indent=4)
-        logging.info("Configuration updated successfully.")
+        # logging.info("Configuration updated successfully.")
     except Exception as e:
-        logging.error(f"Error writing config: {e}")
+        # logging.error(f"Error writing config: {e}")
+        pass
 
 # Fetch modpack version from pack.toml
 def fetch_modpack_version():
-    logging.info("Fetching modpack version.")
+    # logging.info("Fetching modpack version.")
     try:
         response = requests.get(PACK_TOML_URL)
         response.raise_for_status()
         pack_data = toml.loads(response.text)
         version = pack_data.get('version', 'Unknown')
-        logging.info(f"Fetched modpack version: {version}")
+        # logging.info(f"Fetched modpack version: {version}")
         return version
     except Exception as e:
-        logging.error(f"Error fetching modpack version: {e}")
+        # logging.error(f"Error fetching modpack version: {e}")
         return "Unknown"
 
 # Check Minecraft server status
 def check_server_status(label_status, label_players):
-    logging.info("Checking Minecraft server status.")
+    # logging.info("Checking Minecraft server status.")
     try:
         server = JavaServer.lookup(f"{MINECRAFT_SERVER_IP}:{MINECRAFT_SERVER_PORT}")
         status = server.status()
@@ -130,20 +131,21 @@ def check_server_status(label_status, label_players):
         else:
             players = "Pusto :("
         label_players.configure(text=f"Lista graczy: {players}")
-        logging.info("Server is online.")
+        # logging.info("Server is online.")
     except Exception as e:
-        logging.error(f"Server offline or error: {e}")
+        # logging.error(f"Server offline or error: {e}")
         label_status.configure(text="Server Offline", text_color="#f04351")
         label_players.configure(text="")
 
 # Open URL in default browser
 def open_url(url):
-    logging.info(f"Opening URL: {url}")
+    # logging.info(f"Opening URL: {url}")
     try:
         webbrowser.open(url)
-        logging.info(f"Opened URL: {url}")
+        # logging.info(f"Opened URL: {url}")
     except Exception as e:
-        logging.error(f"Error opening URL {url}: {e}")
+        # logging.error(f"Error opening URL {url}: {e}")
+        pass
 
     # Custom Color Picker Class
 class ColorPicker(ctk.CTkToplevel):
@@ -266,7 +268,7 @@ class ColorPicker(ctk.CTkToplevel):
         """
         self.selected_color = color
         self.selected_color_preview.configure(fg_color=self.hex_color(color))
-        logging.info(f"Color selected: {hex(color)}")
+        # logging.info(f"Color selected: {hex(color)}")
 
     def generate_gradient(self):
         """
@@ -282,9 +284,10 @@ class ColorPicker(ctk.CTkToplevel):
                     gradient_image.putpixel((i, j), (int(r * 255), int(g * 255), int(b * 255)))
             self.gradient_photo = ImageTk.PhotoImage(gradient_image)
             self.color_canvas.create_image(0, 0, anchor="nw", image=self.gradient_photo)
-            logging.info("Hue-Saturation gradient generated and displayed.")
+            # logging.info("Hue-Saturation gradient generated and displayed.")
         except Exception as e:
-            logging.error(f"Error generating gradient: {e}")
+            # logging.error(f"Error generating gradient: {e}")
+            pass
 
     def hsv_to_rgb(self, h, s, v):
         """
@@ -313,28 +316,29 @@ class ColorPicker(ctk.CTkToplevel):
                 # Update the selected color
                 self.select_color(decimal_color)
         except Exception as e:
-            logging.error(f"Error selecting color from canvas: {e}")
+            # logging.error(f"Error selecting color from canvas: {e}")
+            pass
 
     def confirm_selection(self):
         """
         Confirms the selected color and closes the window.
         """
         self.callback(self.selected_color)
-        logging.info(f"Color confirmed: {hex(self.selected_color)}")
+        # logging.info(f"Color confirmed: {hex(self.selected_color)}")
         self.destroy()
 
     def close_without_saving(self):
         """
         Closes the window without saving the selected color.
         """
-        logging.info("Color selection canceled.")
+        # logging.info("Color selection canceled.")
         self.destroy()
 
 # Main Launcher Class
 class Launcher(ctk.CTk):
     def __init__(self, java_path, config):
         super().__init__()
-        logging.info("Initializing Launcher.")
+        # logging.info("Initializing Launcher.")
         
         self.java_path = java_path
         self.config = config
@@ -348,7 +352,7 @@ class Launcher(ctk.CTk):
             ctk.set_default_color_theme(THEME_PATH)
 
             # Main frame
-            logging.info("Creating main frame with CTk")
+            # logging.info("Creating main frame with CTk")
             # Create a CTk Frame inside the Tkinter window
             self.main_frame = ctk.CTkFrame(self)
             self.main_frame.pack(padx=8, pady=0, fill="both", expand=True)
@@ -360,12 +364,12 @@ class Launcher(ctk.CTk):
                     self.logo = ctk.CTkImage(light_image=logo_image, dark_image=logo_image, size=(411, 47))# logo_image.size)
                     self.logo_label = ctk.CTkLabel(self.main_frame, image=self.logo, text="")  # Ensure no text
                     self.logo_label.pack(pady=(16, 4))
-                    logging.info("Logo loaded successfully.")
+                    # logging.info("Logo loaded successfully.")
                 except Exception as e:
-                    logging.error(f"Error loading logo: {e}")
+                    # logging.error(f"Error loading logo: {e}")
                     self.logo = None
             else:
-                logging.error(f"Logo not found at path: {LOGO_PATH}")
+                # logging.error(f"Logo not found at path: {LOGO_PATH}")
                 self.logo = None
 
             # Modpack Version
@@ -443,11 +447,12 @@ class Launcher(ctk.CTk):
                 daemon=True
             ).start()
             
-            logging.info("Launcher window displayed successfully.")
+            # logging.info("Launcher window displayed successfully.")
             self.update()
             
         except Exception as e:
-            logging.error(f"Error during Launcher initialization: {e}")
+            # logging.error(f"Error during Launcher initialization: {e}")
+            pass
         
 
     def create_title_bar(self):
@@ -479,9 +484,10 @@ class Launcher(ctk.CTk):
             title_label.bind("<Button-1>", self.click_window)
             title_label.bind("<B1-Motion>", self.drag_window)
 
-            logging.info("Custom title bar created successfully.")
+            # logging.info("Custom title bar created successfully.")
         except Exception as e:
-            logging.error(f"Error creating custom title bar: {e}")
+            # logging.error(f"Error creating custom title bar: {e}")
+            pass
     
     def click_window(self, event):
         """
@@ -516,7 +522,7 @@ class Launcher(ctk.CTk):
         self.geometry(f"{width}x{height}+{x}+{y}")
         self.lift()  # Bring window to the front
         self.focus_force()  # Force focus on the window
-        logging.info("Launcher window displayed and focused successfully.")
+        # logging.info("Launcher window displayed and focused successfully.")
 
 
     def hex_color(self, decimal_color):
@@ -526,19 +532,19 @@ class Launcher(ctk.CTk):
     def update_version(self):
         version = fetch_modpack_version()
         self.version_label.configure(text=f"Modpack: {version}")
-        logging.info(f"Updated modpack version label to {version}")
+        # logging.info(f"Updated modpack version label to {version}")
 
     def on_start(self):
-        logging.info("Starting Minecraft.")
+        # logging.info("Starting Minecraft.")
         try:
-            logging.info(f'starting subprocess: {self.java_path} + {JAVA_DEFAULT_ARGS} in {os.path.dirname(sys.argv[0])}')
+            # logging.info(f'starting subprocess: {self.java_path} + {JAVA_DEFAULT_ARGS} in {os.path.dirname(sys.argv[0])}')
             args = [self.java_path] + JAVA_DEFAULT_ARGS
             process = subprocess.Popen(args, cwd=os.path.dirname(sys.argv[0]))
             self.destroy()
             return_code = process.wait()
             os._exit(return_code)  # Exit with code 0
         except Exception as e:
-            logging.error(f"Error starting Minecraft: {e}")
+            # logging.error(f"Error starting Minecraft: {e}")
             os._exit(1)  # Exit with error code
 
     def on_change_color(self):
@@ -549,26 +555,26 @@ class Launcher(ctk.CTk):
             preset_colors=PRESET_COLORS, 
             callback=self.update_color
         )
-        logging.info("Opened color picker window.")
+        # logging.info("Opened color picker window.")
 
     def update_color(self, new_color):
         self.config['color'] = new_color
         write_config(self.config)
         self.color_preview.configure(fg_color=self.hex_color(new_color))
-        logging.info(f"Updated Tempad color to {self.hex_color(new_color)}")
+        # logging.info(f"Updated Tempad color to {self.hex_color(new_color)}")
 
     def on_exit(self):
         self.destroy()
-        logging.info("Launcher exited.")
+        # logging.info("Launcher exited.")
         os._exit(1)  # Exit with error code
 
 # Main function
 def main():
-    logging.info("Starting launcher.")
+    # logging.info("Starting launcher.")
     parser = argparse.ArgumentParser(description="chromatic.pink Launcher")
     parser.add_argument('java_path', nargs="?", type=str, default='javaw', help='Path to Java executable')
     args = parser.parse_args()
-    logging.info(f'Args received: {args}')
+    # logging.info(f'Args received: {args}')
 
     # Initialize config
     initialize_config()

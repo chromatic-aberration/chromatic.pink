@@ -7,7 +7,7 @@ launcher/dist
 launcher/launcher.dist
 launcher/launcher.onefile-build
 launcher/launcher.build
-
+launcher/launcher.exe
 
 *.zip
 !chromatic.pink.zip
