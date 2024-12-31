@@ -1487,5 +1487,5 @@ hash = "743763741aaea892ff4d9e5d373b18d9ecf55c71c7b1f428a2603ba063a944e3"
 metafile = true
 
 [[files]]
-file = "scripts/tags.zs"
+file = "scripts/tempad.zs"
 hash = "f290216f9e8b44ee736b1b0f7e6db4c3b80e5862c2f9303a31fbe5021ae0f2eb"
