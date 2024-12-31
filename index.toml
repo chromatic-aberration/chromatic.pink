@@ -427,7 +427,7 @@ metafile = true
 
 [[files]]
 file = "mods/almost-unified.pw.toml"
-hash = "3d8e430c9a57371e4167f0deef00fa000d545a5c644cf09f6e3b46b6d21e6834"
+hash = "a21507bc60d5503dd97d43cff689503f95d11ff462a1795cdbde7261bcb51fe5"
 metafile = true
 
 [[files]]
@@ -727,7 +727,7 @@ metafile = true
 
 [[files]]
 file = "mods/edit-mob-drops.pw.toml"
-hash = "3b6f46b168e1f525ffdee415b39db931700b15b7491ba96b32c4d7c65ed68b40"
+hash = "900e05d324d164f7df5c38ff2063084b137278a682afa1c5e271143f508d2007"
 metafile = true
 
 [[files]]
@@ -792,7 +792,7 @@ metafile = true
 
 [[files]]
 file = "mods/flat-bedrock.pw.toml"
-hash = "48f024992f7d4b734688ae4102b3660a090c5ae3f871e831533f4e8b6e8a01a8"
+hash = "7f4f50fb3010b6496b97c7d1b20ff68dc3031839a9f9724040a03426c1219069"
 metafile = true
 
 [[files]]
@@ -1422,7 +1422,7 @@ metafile = true
 
 [[files]]
 file = "mods/when-dungeons-arise.pw.toml"
-hash = "e1a4ba8492831192c38c8048b9a3ae872b6b7cb6a6c3a204e68c02056ab81af9"
+hash = "a70e61e407780957b50dc0c09e1ee711267f7c3fcecb3dc4c38b102f1797f184"
 metafile = true
 
 [[files]]

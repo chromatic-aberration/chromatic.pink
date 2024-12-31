@@ -1,6 +1,6 @@
 name = "Edit Mob Drops"
 filename = "editmobdrops-1.20.1-1.4.4.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/CE2Pi3IJ/versions/Il8d6NME/editmobdrops-1.20.1-1.4.4.jar"
