@@ -8,6 +8,7 @@ launcher/launcher.dist
 launcher/launcher.onefile-build
 launcher/launcher.build
 launcher/launcher.exe
+venv
 
 *.zip
 !chromatic.pink.zip
