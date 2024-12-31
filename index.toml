@@ -353,6 +353,10 @@ file = "defaultconfigs/tiab-server.toml"
 hash = "ea3219bb8f0b32d2b01f69ce898380a840c46ccc52b97f3c59f455c2f63dfde0"
 
 [[files]]
+file = "launcher-lin"
+hash = "b773fa540e2d90c3d6ca3e59220f36dd5fa3e1fa4e1864de24a9fd67bf33690d"
+
+[[files]]
 file = "launcher.exe"
 hash = "2271e71b7dfac3f4680cafe6e395dd245fd7caca5dc74eb4f8846824c0d4469e"
 
