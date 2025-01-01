@@ -1,0 +1,13 @@
+name = "Sophisticated Quark"
+filename = "Sophisticated Quark.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/v3S3PGn8/versions/U3RXovkh/Sophisticated%20Quark.zip"
+hash-format = "sha512"
+hash = "e382ccc4932052cac96de8ba6b34d92ef6eadd9f1eaa07c8948852302276909e9820f6167f19c3353ed7ea38e8210e331ff3843390cc87c7b43555696c95c165"
+
+[update]
+[update.modrinth]
+mod-id = "v3S3PGn8"
+version = "U3RXovkh"

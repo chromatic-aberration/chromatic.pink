@@ -1,6 +1,10 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".codegpt/head"
+hash = "3c2930eb6d3b7449c2f39ab78da64beeb7b5b123d8d0f3a5849e8ef7c83db8c5"
+
+[[files]]
 file = "config/Mekanism/common.toml"
 hash = "32dd9b2e18b67a1e94026124000d720b36ddb24be092303141a4901f33d7b7c0"
 
@@ -1523,6 +1527,11 @@ metafile = true
 [[files]]
 file = "mods/zeta.pw.toml"
 hash = "583961055f3e588845076ace49394c9ca830706a73eb1b4a4cbfe4db9f0950e9"
+metafile = true
+
+[[files]]
+file = "resourcepacks/sophisticated-quark.pw.toml"
+hash = "e1e8611a93ee4bd1646d6327d60db908c12e9cf88e7c447f205eddb6a6080f81"
 metafile = true
 
 [[files]]

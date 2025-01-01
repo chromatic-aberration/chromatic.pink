@@ -18,3 +18,5 @@ venv
 
 .tempad_initialized
 tempad-client.jsonc
+
+.codegpt
