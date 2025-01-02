@@ -214,11 +214,11 @@ hash = "22b4560c3dc05da35a70bb6611da0ce04cff295ab8c663afd58e725c396a24b3"
 
 [[files]]
 file = "config/jade/jade.json"
-hash = "7f7f4054cbbfe387290320eca2f91fe8e5ba80cb674d6d5037a26d02cd0ab0c9"
+hash = "f97fed7368c55d3bcbebc6bb051b71dca8022adaa88fcbe60c33cfa4e7f5a2ab"
 
 [[files]]
 file = "config/jade/plugins.json"
-hash = "79a58f739e4adb16dccf999d3786548f7d6133dfeb52cb3f783986c7dc72e100"
+hash = "83deca1b67b9e9e0a1684dfff0e17d906d6e650ee96a777be51c6fab05fa3480"
 
 [[files]]
 file = "config/jeiintegration-client.toml"
