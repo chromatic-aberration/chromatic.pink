@@ -1,10 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = ".codegpt/head"
-hash = "3c2930eb6d3b7449c2f39ab78da64beeb7b5b123d8d0f3a5849e8ef7c83db8c5"
-
-[[files]]
 file = "config/Mekanism/common.toml"
 hash = "32dd9b2e18b67a1e94026124000d720b36ddb24be092303141a4901f33d7b7c0"
 
