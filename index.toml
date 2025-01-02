@@ -1530,11 +1530,6 @@ hash = "583961055f3e588845076ace49394c9ca830706a73eb1b4a4cbfe4db9f0950e9"
 metafile = true
 
 [[files]]
-file = "resourcepacks/sophisticated-quark.pw.toml"
-hash = "e1e8611a93ee4bd1646d6327d60db908c12e9cf88e7c447f205eddb6a6080f81"
-metafile = true
-
-[[files]]
 file = "resourcepacks/when-dungeons-arise-spacing-tweaks.pw.toml"
 hash = "743763741aaea892ff4d9e5d373b18d9ecf55c71c7b1f428a2603ba063a944e3"
 metafile = true
