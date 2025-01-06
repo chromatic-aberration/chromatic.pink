@@ -1,6 +1,46 @@
 hash-format = "sha256"
 
 [[files]]
+file = "chromatic.pink/.minecraft/journeymap/config/5.10/journeymap.fullmap.config"
+hash = "096d7516cc4cc038f7ca795bb6b66e22e55b786b87c4007c579c9fa34bc7e80c"
+
+[[files]]
+file = "chromatic.pink/.minecraft/journeymap/config/5.10/journeymap.minimap.config"
+hash = "99c23d89a846a0f043bc5eaa663e05fb487a7524bac11cd273e8cc9ca92610de"
+
+[[files]]
+file = "chromatic.pink/.minecraft/launcher.exe"
+hash = "8c3c16ef5a101e5a66303dc2f95e354448d9801f50c6fcf15255846804ae71e7"
+
+[[files]]
+file = "chromatic.pink/.minecraft/packwiz-installer-bootstrap.jar"
+hash = "a8fbb24dc604278e97f4688e82d3d91a318b98efc08d5dbfcbcbcab6443d116c"
+
+[[files]]
+file = "chromatic.pink/.packignore"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
+file = "chromatic.pink/chromaticpink.ico"
+hash = "d612e360773ca57dabafb7392fefffe035c65df38fe29f69c160c39085b0492d"
+
+[[files]]
+file = "chromatic.pink/chromaticpink.jpg"
+hash = "56b0054229d3bbb03a20cfa386c42164f15b6870cc8b17d5d52d045af0340e1b"
+
+[[files]]
+file = "chromatic.pink/instance.cfg"
+hash = "08e86baccceee01ba7f5522a995ec9fc7abb8fa44ebc6f9e6df9c522054d062b"
+
+[[files]]
+file = "chromatic.pink/mmc-pack.json"
+hash = "6f4e8ae507713091317fde04813caeaa2c2e0ea23acbb133165d4dadd0c7abfe"
+
+[[files]]
+file = "chromatic.pink/patches/org.lwjgl3.json"
+hash = "662722571f29e4ca435b5d66fd0183aff537e3efc35cb99df5fb0812d9ad7a5b"
+
+[[files]]
 file = "config/Mekanism/common.toml"
 hash = "32dd9b2e18b67a1e94026124000d720b36ddb24be092303141a4901f33d7b7c0"
 
@@ -294,7 +334,7 @@ hash = "8f7d278a624da2eaa9a909637552a0d3c41c1627cd797ddb3c58f91a0ac86a23"
 
 [[files]]
 file = "config/starterkit/kits/Default.txt"
-hash = "c718ec9cd4b098b756c07a26c3ed63d6bc2684b2f409335656e68f1a1a65d6a5"
+hash = "c02335db0c0cb98debca1ce9edec89da05d6e3ee6d87a263b842593de1b5d303"
 
 [[files]]
 file = "config/syp-common.toml"
@@ -306,7 +346,7 @@ hash = "f0ab94c974c19bacb3fdb8102c9f772fa9cac3d273a209f8098b6a724980e659"
 
 [[files]]
 file = "config/tempad.jsonc"
-hash = "446f41193bfc44dfc6799598c17efe4c31b01b5b8f4fbe1b06dd5bfa5def2c93"
+hash = "287eeae5d24e3959528f9bee726d4b5d4121eedfca9d94b2d5335573c37df076"
 
 [[files]]
 file = "config/terrablender.toml"
