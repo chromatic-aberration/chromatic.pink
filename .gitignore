@@ -20,3 +20,5 @@ venv
 tempad-client.jsonc
 
 .codegpt
+
+chromatic.pink/
