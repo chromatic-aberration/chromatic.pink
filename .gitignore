@@ -1,4 +1,3 @@
-*.jar
 tools
 *.log
 launcher/.tempad_initialized
