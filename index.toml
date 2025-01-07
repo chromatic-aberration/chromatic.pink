@@ -393,10 +393,6 @@ file = "defaultconfigs/tiab-server.toml"
 hash = "ea3219bb8f0b32d2b01f69ce898380a840c46ccc52b97f3c59f455c2f63dfde0"
 
 [[files]]
-file = "launcher-lin"
-hash = "454f1ce6d4a471fbefc52d3f19580179398479b07e7d4090e8d177af8c7c0b3a"
-
-[[files]]
 file = "launcher.exe"
 hash = "8c3c16ef5a101e5a66303dc2f95e354448d9801f50c6fcf15255846804ae71e7"
 
@@ -441,6 +437,11 @@ hash = "ede64c0b2041a6ea24b1406891e18ecd8210f517433a6ee26b82378e06d4abc0"
 metafile = true
 
 [[files]]
+file = "mods/aether-delight.pw.toml"
+hash = "18d6856a8b7323dc933ca2c2c61e0fca00f9edeabeef274ce511a6531e2edafc"
+metafile = true
+
+[[files]]
 file = "mods/aether-enhanced-extinguishing.pw.toml"
 hash = "8e7f2282ce70b5a82bfe05304c30e71d6d3c26a29a75d6e1f31e85af8b86eb2e"
 metafile = true
@@ -458,6 +459,11 @@ metafile = true
 [[files]]
 file = "mods/alexs-caves.pw.toml"
 hash = "0cbc4b2c6b58b7a94f030ae84f18057e5dc78a17bad429f40b8884926a6ab233"
+metafile = true
+
+[[files]]
+file = "mods/alexs-delight.pw.toml"
+hash = "99f6d4e46f784953d16aa1ce5f72327b21487dc0e27d3143c8a6b60c6d02381a"
 metafile = true
 
 [[files]]
@@ -791,8 +797,18 @@ hash = "473489bb165ab775858cc475d8e9ae599e126bced1c73d17563e3459e4899719"
 metafile = true
 
 [[files]]
+file = "mods/ends-delight.pw.toml"
+hash = "aaf8eb8844b9f261de1d3cd791359d78de60ff54304dff165c38c5a62065a786"
+metafile = true
+
+[[files]]
 file = "mods/everlasting-skins.pw.toml"
 hash = "92aad830d351518722195722fcf4f917f5a3fe532dffd26f46dd72fea3881438"
+metafile = true
+
+[[files]]
+file = "mods/every-compat.pw.toml"
+hash = "cab3888ab979c0611d39cfc24f2f69b29f26cfbb5f660ce7bca4f80d269acc3c"
 metafile = true
 
 [[files]]
@@ -803,6 +819,11 @@ metafile = true
 [[files]]
 file = "mods/farlanders.pw.toml"
 hash = "4d26df18cd142647c258cc0ed01294331be64281817cf512d647cc4c27aa85ca"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight.pw.toml"
+hash = "f13061db33adc84d2bd562979d838f0e6e66808ff3e4285cbdbe44970f59792b"
 metafile = true
 
 [[files]]
@@ -1101,6 +1122,11 @@ hash = "53afcdf3ba0ebb3b19deb3d409623e8e2166a09e4d6df7eccb4f92271b6052df"
 metafile = true
 
 [[files]]
+file = "mods/moonlight.pw.toml"
+hash = "faf6837bec854ebcd21d97d81d9f19e3b8c2c7cd80eac6b4614705252fb3930f"
+metafile = true
+
+[[files]]
 file = "mods/more-red-x-cc-tweaked-compat.pw.toml"
 hash = "c267d39e15eee2203a0773569d9dbc28fab80b764cc60119cfe30a650e954fd7"
 metafile = true
@@ -1131,6 +1157,11 @@ hash = "820d6b97344411476b96ae2bc8a3e4b9e30e15dfd15d8d0c945726b0011928d4"
 metafile = true
 
 [[files]]
+file = "mods/nethers-delight.pw.toml"
+hash = "a1d3b1b3f1a9ec557cbe63ea70dfc6f7048312ae5f807a7f0ebaa3278dcef594"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "1d602996f39fb6103a5b968f50ec06800db7125b145570474c9c10e6dcd0c68e"
 metafile = true
@@ -1153,6 +1184,11 @@ metafile = true
 [[files]]
 file = "mods/notenoughrecipebook.pw.toml"
 hash = "5dd8e869fbebed8abe7886fd28f1f192c420d3fefd9f714939c2a501d3a4a1af"
+metafile = true
+
+[[files]]
+file = "mods/oceans-delight.pw.toml"
+hash = "7f5a7cc6134e81f6f9411e353d5f92bee50fba2edfbc738b1fb3732a54cf51ba"
 metafile = true
 
 [[files]]
@@ -1206,6 +1242,11 @@ hash = "d99946cb99e0d71fc13f2ff0e87108618b1f42486ff0ab3c3b99fa40c66efc9a"
 metafile = true
 
 [[files]]
+file = "mods/quark-delight.pw.toml"
+hash = "4e27636be73aaf9d9a258990e1298e0131e23dd3568940077028c710b6234541"
+metafile = true
+
+[[files]]
 file = "mods/quark-oddities.pw.toml"
 hash = "cccf29ce906a920013a8f10ece935b3e9c970dca19943d7237557b178d01f149"
 metafile = true
@@ -1253,11 +1294,6 @@ metafile = true
 [[files]]
 file = "mods/sebastrnlib.pw.toml"
 hash = "ff629fa547da3fb7943cbf687a939fe3e7c4d43c7141b6fec180cfb45b35fddf"
-metafile = true
-
-[[files]]
-file = "mods/selene.pw.toml"
-hash = "1483fb99cbc334dde3a63612db0e12c2f4b55473889863eb60b6c8935536289c"
 metafile = true
 
 [[files]]

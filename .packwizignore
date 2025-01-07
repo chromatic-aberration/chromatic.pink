@@ -13,6 +13,7 @@ CNAME
 .vscode
 .codegpt
 launcher
+launcher-lin
 
 .tempad_initialized
 config/tempad-client.jsonc

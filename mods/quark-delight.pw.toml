@@ -1,0 +1,13 @@
+name = "Quark Delight"
+filename = "quark_delight_1.0.0_forge_1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "06e0c415a201f80969fdf8ff0eb1f07c8c7a5751"
+url = "http://chromatic.pink/resources/quark_delight_1.0.0_forge_1.20.1.jar"
+
+[update]
+[update.curseforge]
+file-id = 5052580
+project-id = 963245
