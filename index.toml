@@ -846,6 +846,11 @@ hash = "2a4f28e582d8bb538efaeb0faa5a8592f44b2e90dd192af58852f45aa7be8be8"
 metafile = true
 
 [[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "f9cd81099e6abda30a56f99222e7e02cf3ade740bca743860bcb1ca3984253f1"
+metafile = true
+
+[[files]]
 file = "mods/gateways-to-eternity.pw.toml"
 hash = "595fe8acbe4778aaed1314ad56e54e200205e15be496bffd56fa36b2ef132c04"
 metafile = true
@@ -991,6 +996,11 @@ hash = "bc4c7d42fd94d57b020a43dbb3aa3caaa8395c77bd872f252a8302a39b2256a9"
 metafile = true
 
 [[files]]
+file = "mods/loot-beams-refork.pw.toml"
+hash = "84ba3d5aff9633a9460aa29879441fa52f830ac200f5d10f20fc8f68a9dc3658"
+metafile = true
+
+[[files]]
 file = "mods/loot-integrations.pw.toml"
 hash = "6863aa91d9154b3b68b56619d078ca063c00ee5309dcee4fa17540b276a49de9"
 metafile = true
@@ -1128,6 +1138,11 @@ metafile = true
 [[files]]
 file = "mods/netherportalfix.pw.toml"
 hash = "820d6b97344411476b96ae2bc8a3e4b9e30e15dfd15d8d0c945726b0011928d4"
+metafile = true
+
+[[files]]
+file = "mods/nirvana-library.pw.toml"
+hash = "43244bfc4c240860395d679d028457ea2fdfcfa5f26b5f8d357c6a6fd17198b9"
 metafile = true
 
 [[files]]
