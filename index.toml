@@ -991,11 +991,6 @@ hash = "bc4c7d42fd94d57b020a43dbb3aa3caaa8395c77bd872f252a8302a39b2256a9"
 metafile = true
 
 [[files]]
-file = "mods/loot-beams.pw.toml"
-hash = "5bdf3be7a54e938e87c0757404f30c6820cbf7cb4bb57cd41ec112f197e2865d"
-metafile = true
-
-[[files]]
 file = "mods/loot-integrations.pw.toml"
 hash = "6863aa91d9154b3b68b56619d078ca063c00ee5309dcee4fa17540b276a49de9"
 metafile = true
