@@ -1,0 +1,13 @@
+name = "TipsyLib"
+filename = "TipsyLib-forge-1.20.1-2.0.9.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mk0Htq87/versions/vorOTq4N/TipsyLib-forge-1.20.1-2.0.9.jar"
+hash-format = "sha512"
+hash = "4068be3e136899690a8833c46ab32586b3bdc2bd5d4c7036d3c62a9354cc54b6032dbdb05077e5d16e6a60d8a7372a4ce3676c67222da89aeeb4ca8694cd97f3"
+
+[update]
+[update.modrinth]
+mod-id = "mk0Htq87"
+version = "vorOTq4N"

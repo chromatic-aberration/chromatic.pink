@@ -1,0 +1,13 @@
+name = "Apotheosis Ascended"
+filename = "apotheosis-ascended-1.4.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/uwCpk80h/versions/BudEWzNX/apotheosis-ascended-1.4.0.jar"
+hash-format = "sha512"
+hash = "b38980cfc4b68a9197bed3268472f0b03ac43d3e70dba8fcef222d866967f0e14112a575cfefd0a7ae2a4bca345b83153c269390fe114657b7707fb5215eea04"
+
+[update]
+[update.modrinth]
+mod-id = "uwCpk80h"
+version = "BudEWzNX"

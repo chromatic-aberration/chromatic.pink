@@ -407,6 +407,11 @@ hash = "5e727d91523c52e5056a57556d63118fe26802d824668c662195c8abf762a265"
 metafile = true
 
 [[files]]
+file = "mods/additional-attributes.pw.toml"
+hash = "d15ea366e0d44bdd310634291f5ae5cdefdab6bfb23b6fb612868483cd907892"
+metafile = true
+
+[[files]]
 file = "mods/advanced-hook-launchers.pw.toml"
 hash = "df44e54caf6a1c076a941974f31f7336b1705eb54db4e2498c3eb48b1edcd68b"
 metafile = true
@@ -484,6 +489,11 @@ metafile = true
 [[files]]
 file = "mods/angel-block-renewed.pw.toml"
 hash = "29a2592483963be50605adeac32298428d47d85b2fd5542f27dd4a45981decea"
+metafile = true
+
+[[files]]
+file = "mods/apotheosis-ascended.pw.toml"
+hash = "da0e7e1f4237e3ea501dab2b090006e42cd76f129be7f8d5206a8f7380dc1098"
 metafile = true
 
 [[files]]
@@ -707,6 +717,11 @@ hash = "db975ac6f7723fa6230f64ce45b0986774437c4429237f62299e3de71b32b372"
 metafile = true
 
 [[files]]
+file = "mods/create-dreams-and-desires.pw.toml"
+hash = "23dc3517bb479f4a7275bedc75ea45362aef0ff1b240d8cd0fde2fd152032cdf"
+metafile = true
+
+[[files]]
 file = "mods/create-new-age.pw.toml"
 hash = "011d35087c3d81b17000ba7604a73fef600a868021eed8c14df2dc2b77ca7ddc"
 metafile = true
@@ -714,6 +729,11 @@ metafile = true
 [[files]]
 file = "mods/create-steam-n-rails.pw.toml"
 hash = "cb7b31c785f6e7466951c7b2b221d9c89f065e7930a36ac1a575e40d54404bb3"
+metafile = true
+
+[[files]]
+file = "mods/create-structures.pw.toml"
+hash = "4f64bc81a381a3cb0c637829d547d8b0f5daa0ea29fe84a9e43a91784763745e"
 metafile = true
 
 [[files]]
@@ -1404,6 +1424,11 @@ metafile = true
 [[files]]
 file = "mods/time-in-a-bottle-universal.pw.toml"
 hash = "0a12d53bc09bb474181e4fe5d3ea00d2905a076036987f3262fccafb194d7f74"
+metafile = true
+
+[[files]]
+file = "mods/tipsylib.pw.toml"
+hash = "d331730049dbdb4c4b0965add732c7d9a280547cfb1583df3226742789503f60"
 metafile = true
 
 [[files]]
