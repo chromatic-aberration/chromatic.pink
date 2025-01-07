@@ -12,7 +12,9 @@ packwiz
 CNAME
 .vscode
 .codegpt
+.github
 launcher
+data
 
 .tempad_initialized
 config/tempad-client.jsonc
